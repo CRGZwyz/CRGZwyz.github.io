@@ -3,6 +3,43 @@ import {modelFiles} from './model-files.js';
 const CACHE_NAME = 'railway-model-bytes-v1';
 const defaultRoot = new URL('../', import.meta.url);
 
+// Start one request first: servers ignoring Range return their single full response.
+// Servers supporting Range receive three more requests after headers arrive.
+async function parallelModel(url, info, onProgress) {
+  const count = 4, size = info.packedBytes, step = Math.ceil(size / count);
+  const controllers = Array.from({length: count}, () => new AbortController());
+  const loaded = Array(count).fill(0);
+  async function readPart(response, i, start, end) {
+    if (response.status !== 206 ||
+        response.headers.get('content-range') !== `bytes ${start}-${end}/${size}` || !response.body) {
+      throw new Error('Invalid range response');
+    }
+    const reader = response.body.getReader(), chunks = [];
+    while (true) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      chunks.push(value); loaded[i] += value.length;
+      onProgress?.({loaded: loaded.reduce((a, b) => a + b, 0), total: size, lengthComputable: true});
+    }
+    if (loaded[i] !== end - start + 1) throw new Error('Truncated model range');
+    return new Blob(chunks);
+  }
+  try {
+    const first = await fetch(url, {headers: {Range: `bytes=0-${step - 1}`}, signal: controllers[0].signal});
+    if (first.status === 200) return first;
+    const parts = [readPart(first, 0, 0, step - 1)];
+    for (let i = 1; i < count; i++) {
+      const start = i * step, end = Math.min(size - 1, start + step - 1);
+      parts.push(fetch(url, {headers: {Range: `bytes=${start}-${end}`}, signal: controllers[i].signal})
+        .then(response => readPart(response, i, start, end)));
+    }
+    return new Response(new Blob(await Promise.all(parts)), {headers: {'content-length': String(size), 'x-rail-ranges': '4'}});
+  } catch {
+    controllers.forEach(c => c.abort());
+    return fetch(url); // Proxies that alter ranges still work with a normal request.
+  }
+}
+
 async function cachedModel(info, root, onProgress) {
   const url = new URL(info.packed, root);
   url.searchParams.set('v', info.sha256.slice(0, 16));
@@ -11,14 +48,14 @@ async function cachedModel(info, root, onProgress) {
   let response;
   try { response = await cache?.match(url.href); } catch {}
   const fromCache = !!response;
-  if (!response) response = await fetch(url);
+  if (!response) response = await parallelModel(url, info, onProgress);
   if (!response.ok || !response.body) throw new Error('Packed model unavailable');
   const candidate = !fromCache && cache ? response.clone() : null;
   let loaded = 0;
   const total = Number(response.headers.get('content-length')) || info.packedBytes;
   const progress = new TransformStream({transform(chunk, controller) {
     loaded += chunk.byteLength;
-    onProgress?.({loaded, total, lengthComputable: total > 0});
+    if (fromCache || !response.headers.get('x-rail-ranges')) onProgress?.({loaded, total, lengthComputable: total > 0});
     controller.enqueue(chunk);
   }});
   try {

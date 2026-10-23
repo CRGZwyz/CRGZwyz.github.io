@@ -94,7 +94,7 @@ if (!read('library/style.css').includes('.history img{height:auto}')) {
   write('library/style.css', read('library/style.css') + '\n.history img{height:auto}\n');
 }
 for (const file of ['library/watch.html', 'dead-haul/watch.html']) {
-  write(file, read(file).replaceAll('preload="metadata"', 'preload="none"'));
+  write(file, read(file).replace(/preload="(?:metadata|none|auto)"/g, 'preload="auto"'));
 }
 // These links originally assumed the CR400AF exhibit lived at the site root.
 let cr = read('cr400af.html').replaceAll('href="./"', 'href="./cr400af.html"');
