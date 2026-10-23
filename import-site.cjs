@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const manifest=require('./source-manifest.json'),dest=path.resolve('site');
 const base=new URL(process.env.SOURCE_PREVIEW_URL||'');
-if(base.protocol!=='https:'||!base.hostname.endsWith('.edgeone.cool'))throw Error('Expected the Tencent preview URL');
+if(base.protocol!=='https:'||!(base.hostname.endsWith('.edgeone.cool')||base.hostname==='crgzwyz.github.io'))throw Error('Expected the existing public railway website');
 fs.mkdirSync(dest,{recursive:true});
 let next=0,done=0;
 async function one(e){
@@ -11,7 +11,7 @@ async function one(e){
  for(let i=0;i<3;i++)try{
   const res=await fetch(u,{signal:AbortSignal.timeout(120000)});if(!res.ok)throw Error('HTTP '+res.status+' '+e.path);
   const raw=Buffer.from(await res.arrayBuffer()),canonical=e.text?Buffer.from(raw.toString('utf8').replace(/^\uFEFF/,'').replace(/\r\n?/g,'\n')):raw;
-  if(crypto.createHash('sha256').update(canonical).digest('hex')!==e.sha256)throw Error('Snapshot hash mismatch '+e.path);
+  const actual=crypto.createHash('sha256').update(canonical).digest('hex');if(actual!==e.sha256&&actual!==e.optimizedSHA256)throw Error('Snapshot hash mismatch '+e.path);
   fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,raw);console.log('Verified '+(++done)+'/'+manifest.files.length+' '+e.path);return;
  }catch(err){if(i===2||/hash mismatch|HTTP 401/.test(err.message))throw err;}
 }

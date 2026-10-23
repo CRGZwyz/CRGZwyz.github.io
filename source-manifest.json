@@ -18,7 +18,8 @@
     {
       "path": "cfd/app.js",
       "text": true,
-      "sha256": "ec0cd53b379a9a9969ea5916266d033f6d5c9fc79b7e62fbd164584ec52b4f14"
+      "sha256": "ec0cd53b379a9a9969ea5916266d033f6d5c9fc79b7e62fbd164584ec52b4f14",
+      "optimizedSHA256": "f50118818cef6953ed0db047afef4ca05c081515f7b263bed436fca4c859cdbb"
     },
     {
       "path": "cfd/archive.js",
@@ -83,7 +84,8 @@
     {
       "path": "cr400af.html",
       "text": true,
-      "sha256": "16fedbe4b096081809529ed687d3f89f3b45aa10644a245c60832f6b8c3e7727"
+      "sha256": "16fedbe4b096081809529ed687d3f89f3b45aa10644a245c60832f6b8c3e7727",
+      "optimizedSHA256": "05df7726ed48584821069953357b3954494e06265b6e65b1b0cde015959a73d1"
     },
     {
       "path": "dead-haul/accessories.glb",
@@ -93,7 +95,8 @@
     {
       "path": "dead-haul/app.js",
       "text": true,
-      "sha256": "7d022f44b39b68e1a62a918e5f683e446a9f30bb14a1d8a54361b92b529c7ab4"
+      "sha256": "7d022f44b39b68e1a62a918e5f683e446a9f30bb14a1d8a54361b92b529c7ab4",
+      "optimizedSHA256": "506391da1b746e17469bb287f9d86b4aa032fa93a36694d712facba34ed9b305"
     },
     {
       "path": "dead-haul/config.json",
@@ -113,7 +116,8 @@
     {
       "path": "dead-haul/index.html",
       "text": true,
-      "sha256": "9336b2502132ebc1342778f681e69cf89b6a28bfc3066c96d20189cd60529aac"
+      "sha256": "9336b2502132ebc1342778f681e69cf89b6a28bfc3066c96d20189cd60529aac",
+      "optimizedSHA256": "50401aba61ae4b5706be751c250203526b1c150bcc3288e7da2c99e9bb8da696"
     },
     {
       "path": "dead-haul/overview.png",
@@ -133,7 +137,8 @@
     {
       "path": "dead-haul/watch.html",
       "text": true,
-      "sha256": "63918b65d140bfc626f54248ec4575b84134261ae7f84d8810d5787e32551cb2"
+      "sha256": "63918b65d140bfc626f54248ec4575b84134261ae7f84d8810d5787e32551cb2",
+      "optimizedSHA256": "9755f0582a99ab319966cfcf82a63cc7912cee69d43f047a64e957961d741d57"
     },
     {
       "path": "finish.js",
@@ -153,7 +158,8 @@
     {
       "path": "hxd3b/index.html",
       "text": true,
-      "sha256": "6c42ddfcaf1f3946f9f2311930018be02d9df965399fac3503ae19d16d677ada"
+      "sha256": "6c42ddfcaf1f3946f9f2311930018be02d9df965399fac3503ae19d16d677ada",
+      "optimizedSHA256": "b3db2e647d48965ad5fde87f396d9279a1d7db127b44a671c6617309e4e0aaba"
     },
     {
       "path": "hxd3b/studio.css",
@@ -163,7 +169,8 @@
     {
       "path": "hxd3b/studio.js",
       "text": true,
-      "sha256": "582928fade69660d53043f2fe17915c2b1e2450beb61646503db4212bdfc955d"
+      "sha256": "582928fade69660d53043f2fe17915c2b1e2450beb61646503db4212bdfc955d",
+      "optimizedSHA256": "7db45e7c4c53132b57724038d17c5b8c9ae63c902a345fdf6776c9c9d0e9a7ac"
     },
     {
       "path": "hxd3b/vendor/addons/controls/OrbitControls.js",
@@ -238,7 +245,8 @@
     {
       "path": "hxd3b/wind-tunnel/index.html",
       "text": true,
-      "sha256": "5aebb53555a77f02c2277d880ff368d5f7bffccaf4790a82369ce7dfb0c5f171"
+      "sha256": "5aebb53555a77f02c2277d880ff368d5f7bffccaf4790a82369ce7dfb0c5f171",
+      "optimizedSHA256": "41c3a01426b7d6391f4ccad7862a10450f5ab190850b70ac07d9223d572930a0"
     },
     {
       "path": "hxd3b/wind-tunnel/runtime-report.js",
@@ -248,7 +256,8 @@
     {
       "path": "hxd3b/wind-tunnel/scene.js",
       "text": true,
-      "sha256": "a9840116b6f42279fc3875d16e2b8cd6277abfcb1689f4ba4b2d76d222016306"
+      "sha256": "a9840116b6f42279fc3875d16e2b8cd6277abfcb1689f4ba4b2d76d222016306",
+      "optimizedSHA256": "c6c3ad99dab50a956c51633210c5e0f16c598e534f47cc6ccd9a2db5a067acab"
     },
     {
       "path": "hxd3b/wind-tunnel/schema.json",
@@ -323,12 +332,14 @@
     {
       "path": "library/index.html",
       "text": true,
-      "sha256": "75b386b66b40e2458bf03ce8ef9abf7bee811cc0ebae4facf7fa998022588a8c"
+      "sha256": "75b386b66b40e2458bf03ce8ef9abf7bee811cc0ebae4facf7fa998022588a8c",
+      "optimizedSHA256": "5519ae4b96d5fdbdb07212c48dc147e27a1d3ff19919a995132d11552789cf08"
     },
     {
       "path": "library/style.css",
       "text": true,
-      "sha256": "05d14f77cf5c0906341a445f831d4e152d86c3df818ae7f2484150bc2ba4f005"
+      "sha256": "05d14f77cf5c0906341a445f831d4e152d86c3df818ae7f2484150bc2ba4f005",
+      "optimizedSHA256": "95f4fd36f44c0e0471420f477b4a7f49ea8db80864f100206a884946acd841fd"
     },
     {
       "path": "library/videos/cr-pure.mp4",
@@ -363,7 +374,8 @@
     {
       "path": "library/watch.html",
       "text": true,
-      "sha256": "22b6e529414e9b9afe61e0a6b09d2f787f709a4af8f5db938901dd327e97b457"
+      "sha256": "22b6e529414e9b9afe61e0a6b09d2f787f709a4af8f5db938901dd327e97b457",
+      "optimizedSHA256": "dd0bdb4fc50c51d37d84400fbb4f3f6190e6ca2eb44050b39b82ab66caebd06c"
     },
     {
       "path": "library/watch.js",
@@ -378,7 +390,8 @@
     {
       "path": "studio.js",
       "text": true,
-      "sha256": "b88e83a023ca0fcea3fa13ca1d03f42af8fe4d5a7ea6be7a46ba0ac7f95a9033"
+      "sha256": "b88e83a023ca0fcea3fa13ca1d03f42af8fe4d5a7ea6be7a46ba0ac7f95a9033",
+      "optimizedSHA256": "a44ff1aa627bd5c1eb0336e0181acc06d9085d68b83293029c72d2c51048aca8"
     },
     {
       "path": "vendor/addons/controls/OrbitControls.js",
@@ -463,7 +476,8 @@
     {
       "path": "wind-tunnel/scene.js",
       "text": true,
-      "sha256": "a8fd4b03de2196773c5cb58f4b2096d15a91ccfe1f13f2fab93fdef59ec96a3a"
+      "sha256": "a8fd4b03de2196773c5cb58f4b2096d15a91ccfe1f13f2fab93fdef59ec96a3a",
+      "optimizedSHA256": "90e2382ff280ffa01114295a3018eb06a597ff38edef525cb0fbb300c68b7c28"
     },
     {
       "path": "wind-tunnel/schema.json",
