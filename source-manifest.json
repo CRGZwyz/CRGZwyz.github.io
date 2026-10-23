@@ -1,0 +1,484 @@
+{
+  "files": [
+    {
+      "path": "assets/cr400af.glb",
+      "text": false,
+      "sha256": "09bfd2207cdf92b63ba9bde73c141f49eee61e26731ee3738bd7949c34e2155a"
+    },
+    {
+      "path": "assets/hxd3b.glb",
+      "text": false,
+      "sha256": "8a625f78b9efd9b423041d617b514a3c3aba4d71fb26b23f701b938286c81998"
+    },
+    {
+      "path": "assets/parts.json",
+      "text": true,
+      "sha256": "b9181bb5ce794e28b63a1db5ada00eb1caa240932c052ef14928c8da8b39ad5d"
+    },
+    {
+      "path": "cfd/app.js",
+      "text": true,
+      "sha256": "ec0cd53b379a9a9969ea5916266d033f6d5c9fc79b7e62fbd164584ec52b4f14"
+    },
+    {
+      "path": "cfd/archive.js",
+      "text": true,
+      "sha256": "2cc25fc90c6893383300e0fd50f2737f18912a60ab9467f3e049ba3d61720532"
+    },
+    {
+      "path": "cfd/core.js",
+      "text": true,
+      "sha256": "a72974d64f4528f66c593897a824c30ff66c33a0ec2ae88d04a76c20a3cb9007"
+    },
+    {
+      "path": "cfd/download.html",
+      "text": true,
+      "sha256": "9b962eda2581dae6547aae089490702e1fa1791a085e87b6de3414be223493f2"
+    },
+    {
+      "path": "cfd/examples/cr400af-800.json",
+      "text": true,
+      "sha256": "46e3b225618872c8776d2f9201c0233d6e7b21c6a5eca2decb57dc67017e53ba"
+    },
+    {
+      "path": "cfd/examples/hxd3b-400.json",
+      "text": true,
+      "sha256": "ba0ebc1865ac2743bf6bc20dc132a6d870807a10a9790d86f5239299fba5b251"
+    },
+    {
+      "path": "cfd/index.html",
+      "text": true,
+      "sha256": "63f488b488be35367d38df1bb05a6980d49f568d120ea81f3a2a1a7b1787c1dd"
+    },
+    {
+      "path": "cfd/README.txt",
+      "text": false,
+      "sha256": "e6a93a921312136a13edaea1340410cb946176c33f218f5076e1c46052e6bbc9"
+    },
+    {
+      "path": "cfd/style.css",
+      "text": true,
+      "sha256": "7cbc80107fbf20d84750891ebc6f03a9e25a82b810262f31f241010fcf45ff50"
+    },
+    {
+      "path": "cfd/toolkit-manifest.json",
+      "text": true,
+      "sha256": "6eab838214542691f00f3c6f991ffc03ed7530ab95804c5a10e7f983a5683272"
+    },
+    {
+      "path": "cfd/toolkit.part1.bin",
+      "text": false,
+      "sha256": "30baac9f979d45756cfbfef67f1813fcfcb3e3037c1a750f5a8888f37f8c4f94"
+    },
+    {
+      "path": "cfd/toolkit.part2.bin",
+      "text": false,
+      "sha256": "063512fb882268da1766fe15e47d3e6f901f1efba8b5096cf1be3c6bc973635c"
+    },
+    {
+      "path": "cfd/worker.js",
+      "text": true,
+      "sha256": "ca9c1d58da51ef5851cc09f6fc21a36d09e54a363aaebd735afdcbb0db4a0cd1"
+    },
+    {
+      "path": "cr400af.html",
+      "text": true,
+      "sha256": "16fedbe4b096081809529ed687d3f89f3b45aa10644a245c60832f6b8c3e7727"
+    },
+    {
+      "path": "dead-haul/accessories.glb",
+      "text": false,
+      "sha256": "6d89c31082e89053c3eedc3ad025bdc0331a2580260fc2015a2fa31663f434ff"
+    },
+    {
+      "path": "dead-haul/app.js",
+      "text": true,
+      "sha256": "7d022f44b39b68e1a62a918e5f683e446a9f30bb14a1d8a54361b92b529c7ab4"
+    },
+    {
+      "path": "dead-haul/config.json",
+      "text": true,
+      "sha256": "ca44268e5c9e794e8a5d137a9d6b5e9887f78db75f0341b011f9170ecc730cf7"
+    },
+    {
+      "path": "dead-haul/demo.mp4",
+      "text": false,
+      "sha256": "836bc67dde936a1f2b96de63697752acb17c3e4fe5c10c74c084a5fcebd53925"
+    },
+    {
+      "path": "dead-haul/hxd-parts.json",
+      "text": true,
+      "sha256": "35f87683b71cbf9a6cba3750416a6aa871a44fafa5ab673d2034836576d844d1"
+    },
+    {
+      "path": "dead-haul/index.html",
+      "text": true,
+      "sha256": "9336b2502132ebc1342778f681e69cf89b6a28bfc3066c96d20189cd60529aac"
+    },
+    {
+      "path": "dead-haul/overview.png",
+      "text": false,
+      "sha256": "33c5dd73e23ef287ae085b2f1f8c6819b6c784b00b6c34b018eb0c8d29285c90"
+    },
+    {
+      "path": "dead-haul/preview.png",
+      "text": false,
+      "sha256": "1fb2960fe4d281c135670adcfa559faf8afa46deeed59a35b53df16520b1f480"
+    },
+    {
+      "path": "dead-haul/style.css",
+      "text": true,
+      "sha256": "7b5b4197e6324198f55c992404c595b769f1eb677ebcf132ab4ce34c1527a1c1"
+    },
+    {
+      "path": "dead-haul/watch.html",
+      "text": true,
+      "sha256": "63918b65d140bfc626f54248ec4575b84134261ae7f84d8810d5787e32551cb2"
+    },
+    {
+      "path": "finish.js",
+      "text": true,
+      "sha256": "f1e49ac107177ac5e2fb5b8de7a1e2e2aa6fde5b528c01d0efe9890f21ac40ba"
+    },
+    {
+      "path": "hxd3b/assets/hxd3b.glb",
+      "text": false,
+      "sha256": "8a625f78b9efd9b423041d617b514a3c3aba4d71fb26b23f701b938286c81998"
+    },
+    {
+      "path": "hxd3b/assets/parts.json",
+      "text": true,
+      "sha256": "f824ca153c4a544e4250d984c5269e3a200fb51950c4d84d85d58c3a50b91053"
+    },
+    {
+      "path": "hxd3b/index.html",
+      "text": true,
+      "sha256": "6c42ddfcaf1f3946f9f2311930018be02d9df965399fac3503ae19d16d677ada"
+    },
+    {
+      "path": "hxd3b/studio.css",
+      "text": true,
+      "sha256": "1e74e371568b820855ce42b8c2681b738c05f080eb4a1d3518a7e9497f1cfef0"
+    },
+    {
+      "path": "hxd3b/studio.js",
+      "text": true,
+      "sha256": "582928fade69660d53043f2fe17915c2b1e2450beb61646503db4212bdfc955d"
+    },
+    {
+      "path": "hxd3b/vendor/addons/controls/OrbitControls.js",
+      "text": true,
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e"
+    },
+    {
+      "path": "hxd3b/vendor/addons/environments/RoomEnvironment.js",
+      "text": true,
+      "sha256": "85869bdd22f7cf0b22e68dcefe6cb710480af0f5c901a76f7a7764fd07fc8014"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_decoder.js",
+      "text": true,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_decoder.wasm",
+      "text": false,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_wasm_wrapper.js",
+      "text": true,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "hxd3b/vendor/addons/loaders/DRACOLoader.js",
+      "text": true,
+      "sha256": "8a90b39b6c0d7faa70410cdd19348029a83a9f2d5f71e11b665a5f48330a4c72"
+    },
+    {
+      "path": "hxd3b/vendor/addons/loaders/GLTFLoader.js",
+      "text": true,
+      "sha256": "6f1719dcc6a179d30273dfb0de07a8c898a7981f7b08e600b446387f5967371f"
+    },
+    {
+      "path": "hxd3b/vendor/addons/utils/BufferGeometryUtils.js",
+      "text": true,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+    },
+    {
+      "path": "hxd3b/vendor/LICENSE-three.txt",
+      "text": false,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "hxd3b/vendor/three.module.js",
+      "text": true,
+      "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/app.js",
+      "text": true,
+      "sha256": "4dfda8c6d7407216438792886fda0952472004aec18c049b50e33b8a8a3cbe21"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/data/synthetic-V100_W05.json",
+      "text": true,
+      "sha256": "395cfe51de4bfc0a5a0652f9dab81717ea8f4e435285ac03b0da47848c8e7a73"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/DATA-CONTRACT.txt",
+      "text": false,
+      "sha256": "e752a7a111640821ac1e8c8a3736c81c1f4035b886a2e57bbde1e07c85038dd5"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/data.js",
+      "text": true,
+      "sha256": "9da3023a87026d567eae5f8410f105e869ae101aa8538a3810238fd42af89bf2"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/index.html",
+      "text": true,
+      "sha256": "5aebb53555a77f02c2277d880ff368d5f7bffccaf4790a82369ce7dfb0c5f171"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/runtime-report.js",
+      "text": true,
+      "sha256": "ef39cd5a19e101fc6034b90c1f0a001bd31980be90bf8960bbd5ffd0df96c324"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/scene.js",
+      "text": true,
+      "sha256": "a9840116b6f42279fc3875d16e2b8cd6277abfcb1689f4ba4b2d76d222016306"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/schema.json",
+      "text": true,
+      "sha256": "3a3e27177e97fdee54a89b953fb1b1b1f1e4c731cc1f74c5c9105cbbd4bc6a99"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/state.js",
+      "text": true,
+      "sha256": "5de734f39122f90f0a52099fd855842fdc257fb7412861d38297a6b2de7a115e"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/style.css",
+      "text": true,
+      "sha256": "59947ef9e817f4db8fbfba8752de42203c5a7aba4a157652d1d920b5e4daaa11"
+    },
+    {
+      "path": "index.html",
+      "text": true,
+      "sha256": "c6c64a4b422d47cb076674e2e5aa38d88b9ea1d5b22607d1d186f88f318ec0f1"
+    },
+    {
+      "path": "library/documents/research-paper.docx",
+      "text": false,
+      "sha256": "32682bb9fc5348eb30cfc18ff17234e1eae4c9ab224ab9638fab72ea19428881"
+    },
+    {
+      "path": "library/documents/research-slides.pptx",
+      "text": false,
+      "sha256": "244d948ca4a99732be0c265696e41b098b0014398b974eea323cf2a2d61bd7e1"
+    },
+    {
+      "path": "library/images/cfd.png",
+      "text": false,
+      "sha256": "81d68246ad14ede550fab819c225b6d4dee537a4d9d7482e2de52a4dbfc7e82b"
+    },
+    {
+      "path": "library/images/cr.png",
+      "text": false,
+      "sha256": "a1b3f76fa387a9931a41ac8e3ef33b7c6aac709e01785fdf4715ea6402348317"
+    },
+    {
+      "path": "library/images/haul.png",
+      "text": false,
+      "sha256": "1fb2960fe4d281c135670adcfa559faf8afa46deeed59a35b53df16520b1f480"
+    },
+    {
+      "path": "library/images/hxd-v2.png",
+      "text": false,
+      "sha256": "d94aa8c1ff6b6320984f452f80c20a8409b2b72011444fc9fcb8895651edac16"
+    },
+    {
+      "path": "library/images/hxd-v3.png",
+      "text": false,
+      "sha256": "e4d352236720a20e606ae41422d91770037f21a92ae19a066c1e77d7c4088ce3"
+    },
+    {
+      "path": "library/images/hxd-v4.png",
+      "text": false,
+      "sha256": "dda244d2f39aa3ea74beede57d00ef81a7bd70ad32c99ce947c19d27f0433d7c"
+    },
+    {
+      "path": "library/images/hxd.png",
+      "text": false,
+      "sha256": "c956ad0b89b18ed09a7505d4a5b0b0837fa04e99c65fd72739b74c7746790482"
+    },
+    {
+      "path": "library/images/research.png",
+      "text": false,
+      "sha256": "14c1cf4042f980e051f195d54ca0edd8b692a68093e176a7acdddffbe81fbb43"
+    },
+    {
+      "path": "library/index.html",
+      "text": true,
+      "sha256": "75b386b66b40e2458bf03ce8ef9abf7bee811cc0ebae4facf7fa998022588a8c"
+    },
+    {
+      "path": "library/style.css",
+      "text": true,
+      "sha256": "05d14f77cf5c0906341a445f831d4e152d86c3df818ae7f2484150bc2ba4f005"
+    },
+    {
+      "path": "library/videos/cr-pure.mp4",
+      "text": false,
+      "sha256": "7151b0f405673c4ec2282a637d6513a585a06371e32b394081780cb14d57a839"
+    },
+    {
+      "path": "library/videos/cr-wind.mp4",
+      "text": false,
+      "sha256": "92ff4b69518421a4b1c02d950e98ca359744b6887d4251288600e681e1161cfd"
+    },
+    {
+      "path": "library/videos/hxd-pure.mp4",
+      "text": false,
+      "sha256": "b8f4ba632616d99d95a487349f7e321bc87e70679594444ec6186c54a0bc36f6"
+    },
+    {
+      "path": "library/videos/hxd-wind.mp4",
+      "text": false,
+      "sha256": "1cac0afe6ae5cf76b5baaf2a60baa82a6fc1cea9eaafbe15d59ad97fb46de37d"
+    },
+    {
+      "path": "library/videos/research.mp4",
+      "text": false,
+      "sha256": "d3c745557b3a171fc14ef540c707529462ca1e88227d1b87da19e06f842f3abd"
+    },
+    {
+      "path": "library/videos.json",
+      "text": true,
+      "sha256": "ec4caef80438f970d2ce3e678f809d7019c7fa7553c33eee737e088a886249c7"
+    },
+    {
+      "path": "library/watch.html",
+      "text": true,
+      "sha256": "22b6e529414e9b9afe61e0a6b09d2f787f709a4af8f5db938901dd327e97b457"
+    },
+    {
+      "path": "library/watch.js",
+      "text": true,
+      "sha256": "1ad74af8b70f685a99dc598c0559e541f5a59f73481d3c6f72f70c8090128ad5"
+    },
+    {
+      "path": "studio.css",
+      "text": true,
+      "sha256": "2cec2c63d0861808d711b097378c4b9489a7b4ca1afdb31013d597b285ab684e"
+    },
+    {
+      "path": "studio.js",
+      "text": true,
+      "sha256": "b88e83a023ca0fcea3fa13ca1d03f42af8fe4d5a7ea6be7a46ba0ac7f95a9033"
+    },
+    {
+      "path": "vendor/addons/controls/OrbitControls.js",
+      "text": true,
+      "sha256": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e"
+    },
+    {
+      "path": "vendor/addons/environments/RoomEnvironment.js",
+      "text": true,
+      "sha256": "85869bdd22f7cf0b22e68dcefe6cb710480af0f5c901a76f7a7764fd07fc8014"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_decoder.js",
+      "text": true,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_decoder.wasm",
+      "text": false,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_wasm_wrapper.js",
+      "text": true,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "vendor/addons/loaders/DRACOLoader.js",
+      "text": true,
+      "sha256": "8a90b39b6c0d7faa70410cdd19348029a83a9f2d5f71e11b665a5f48330a4c72"
+    },
+    {
+      "path": "vendor/addons/loaders/GLTFLoader.js",
+      "text": true,
+      "sha256": "6f1719dcc6a179d30273dfb0de07a8c898a7981f7b08e600b446387f5967371f"
+    },
+    {
+      "path": "vendor/addons/utils/BufferGeometryUtils.js",
+      "text": true,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+    },
+    {
+      "path": "vendor/LICENSE-three.txt",
+      "text": false,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "text": true,
+      "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+    },
+    {
+      "path": "wind-tunnel/app.js",
+      "text": true,
+      "sha256": "b61cfd5f986d82b3c078e9de9d5b151959ce5e024ee45ee928ee19e93c142ee5"
+    },
+    {
+      "path": "wind-tunnel/data/synthetic-V100_W05.json",
+      "text": true,
+      "sha256": "079ae92f5444974333f7534fb37229a766e50317c92522576a3e20e3c360021f"
+    },
+    {
+      "path": "wind-tunnel/DATA-CONTRACT.txt",
+      "text": false,
+      "sha256": "e752a7a111640821ac1e8c8a3736c81c1f4035b886a2e57bbde1e07c85038dd5"
+    },
+    {
+      "path": "wind-tunnel/data.js",
+      "text": true,
+      "sha256": "00971b0e96a6dcbafd5987ab512549b59d38c6028d7fecb04de94e3f7e797431"
+    },
+    {
+      "path": "wind-tunnel/index.html",
+      "text": true,
+      "sha256": "64401a9280087cb7736f530e4c064aaee60e065d2e48fe197f8136efdf9b4684"
+    },
+    {
+      "path": "wind-tunnel/runtime-report.js",
+      "text": true,
+      "sha256": "ef39cd5a19e101fc6034b90c1f0a001bd31980be90bf8960bbd5ffd0df96c324"
+    },
+    {
+      "path": "wind-tunnel/scene.js",
+      "text": true,
+      "sha256": "a8fd4b03de2196773c5cb58f4b2096d15a91ccfe1f13f2fab93fdef59ec96a3a"
+    },
+    {
+      "path": "wind-tunnel/schema.json",
+      "text": true,
+      "sha256": "9b8f2ab0ac7f9179b5c434ac40f9ede423423f56b3c48160dbd0704ef736892f"
+    },
+    {
+      "path": "wind-tunnel/state.js",
+      "text": true,
+      "sha256": "023ad44a6def9b617c453da30b15aa46bc91a8939a8af74ba3136e48dece3ee8"
+    },
+    {
+      "path": "wind-tunnel/style.css",
+      "text": true,
+      "sha256": "59947ef9e817f4db8fbfba8752de42203c5a7aba4a157652d1d920b5e4daaa11"
+    }
+  ]
+}
