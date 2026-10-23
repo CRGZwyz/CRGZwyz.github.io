@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       source_preview_url:
-        description: Complete current Tencent preview URL (only needed during this build)
+        description: Existing public railway site URL
+        default: 'https://crgzwyz.github.io/'
         required: true
         type: string
 permissions:
@@ -28,6 +29,8 @@ jobs:
         env:
           SOURCE_PREVIEW_URL: ${{ inputs.source_preview_url }}
         run: node import-site.cjs
+      - name: Optimize lossless transfers and mobile loading
+        run: node optimize-site.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
