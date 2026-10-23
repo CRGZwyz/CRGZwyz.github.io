@@ -11,7 +11,7 @@ async function one(e){
  for(let i=0;i<3;i++)try{
   const res=await fetch(u,{signal:AbortSignal.timeout(120000)});if(!res.ok)throw Error('HTTP '+res.status+' '+e.path);
   const raw=Buffer.from(await res.arrayBuffer()),canonical=e.text?Buffer.from(raw.toString('utf8').replace(/^\uFEFF/,'').replace(/\r\n?/g,'\n')):raw;
-  const actual=crypto.createHash('sha256').update(canonical).digest('hex');if(actual!==e.sha256&&actual!==e.optimizedSHA256)throw Error('Snapshot hash mismatch '+e.path);
+  const actual=crypto.createHash('sha256').update(canonical).digest('hex');if(actual!==e.sha256&&actual!==e.optimizedSHA256&&!e.acceptedSHA256?.includes(actual))throw Error('Snapshot hash mismatch '+e.path);
   fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,raw);console.log('Verified '+(++done)+'/'+manifest.files.length+' '+e.path);return;
  }catch(err){if(i===2||/hash mismatch|HTTP 401/.test(err.message))throw err;}
 }

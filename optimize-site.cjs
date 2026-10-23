@@ -20,7 +20,9 @@ for (const name of ['hxd3b', 'cr400af']) {
 }
 files['hxd3b/assets/hxd3b.glb'] = files['assets/hxd3b.glb'];
 write('rail/model-files.js', 'export const modelFiles = ' + JSON.stringify(files) + ';\n');
-write('rail/model-loader.js', fs.readFileSync(path.join(__dirname, 'model-loader.js'), 'utf8'));
+write('rail/model-loader.js', fs.readFileSync(path.join(__dirname, 'model-loader.js'), 'utf8')
+  .replace("'./model-files.js'", "'./model-files.js?v=" + sha(Buffer.from(read('rail/model-files.js'))).slice(0, 16) + "'"));
+const loaderVersion = sha(Buffer.from(read('rail/model-loader.js'))).slice(0, 16);
 const loaderFiles = {
   'studio.js': './rail/model-loader.js',
   'hxd3b/studio.js': '../rail/model-loader.js',
@@ -52,7 +54,14 @@ for (const [name, helper] of Object.entries(loaderFiles)) {
       s = s.replaceAll("'../vendor/addons/libs/draco/gltf/'", "'../../vendor/addons/libs/draco/gltf/'");
     }
   }
+  s = s.replace(/import \{useCompressedModels\} from '[^']*model-loader\.js(?:\?[^']*)?';/,
+    `import {useCompressedModels} from '${helper}?v=${loaderVersion}';`);
   write(name, s);
+}
+for (const folder of ['wind-tunnel', 'hxd3b/wind-tunnel']) {
+  const sceneVersion = sha(Buffer.from(read(folder + '/scene.js'))).slice(0, 16);
+  write(folder + '/app.js', read(folder + '/app.js')
+    .replace(/(['"])\.\/scene\.js(?:\?[^'"\s]*)?\1/g, `'./scene.js?v=${sceneVersion}'`));
 }
 for (const [name, up] of [['hxd3b/index.html', '../'], ['hxd3b/wind-tunnel/index.html', '../../']]) {
   let s = read(name);
@@ -81,6 +90,9 @@ if (!portal.includes('<picture>')) {
   write('library/index.html', portal);
   write('library/style.css', read('library/style.css') + '\n.cover picture{display:block;width:100%;height:100%}\n');
 }
+if (!read('library/style.css').includes('.history img{height:auto}')) {
+  write('library/style.css', read('library/style.css') + '\n.history img{height:auto}\n');
+}
 for (const file of ['library/watch.html', 'dead-haul/watch.html']) {
   write(file, read(file).replaceAll('preload="metadata"', 'preload="none"'));
 }
@@ -90,5 +102,28 @@ write('cr400af.html', cr);
 let haul = read('dead-haul/index.html');
 haul = haul.replace('href="../">复兴号完整拆装', 'href="../cr400af.html">复兴号完整拆装');
 write('dead-haul/index.html', haul);
+// Only changed application resources are versioned; shared model/vendor URLs stay reusable.
+const changedScripts = new Set([...Object.keys(loaderFiles), 'wind-tunnel/app.js', 'hxd3b/wind-tunnel/app.js']);
+function versionHtml(dir) {
+  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+    const absolute = path.join(dir, entry.name);
+    if (entry.isDirectory()) { versionHtml(absolute); continue; }
+    if (!entry.name.endsWith('.html')) continue;
+    const relative = path.relative(root, absolute);
+    let text = fs.readFileSync(absolute, 'utf8');
+    text = text.replace(/(<script\b[^>]*\bsrc=")([^"?#]+)(?:\?[^"#]*)?("[^>]*>)/g, (all, start, src, end) => {
+      const target = path.resolve(dir, src);
+      const key = path.relative(root, target).split(path.sep).join('/');
+      if (!changedScripts.has(key) || !fs.existsSync(target)) return all;
+      return start + src + '?v=' + sha(fs.readFileSync(target)).slice(0, 16) + end;
+    });
+    if (relative.split(path.sep).join('/') === 'library/index.html' || relative.split(path.sep).join('/') === 'library/watch.html') {
+      const version = sha(Buffer.from(read('library/style.css'))).slice(0, 16);
+      text = text.replace(/href="style\.css(?:\?[^"#]*)?"/g, `href="style.css?v=${version}"`);
+    }
+    fs.writeFileSync(absolute, text);
+  }
+}
+versionHtml(root);
 write('mobile-optimization-report.json', JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report));
