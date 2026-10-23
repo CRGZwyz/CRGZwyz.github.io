@@ -7,37 +7,60 @@ const defaultRoot = new URL('../', import.meta.url);
 // Servers supporting Range receive three more requests after headers arrive.
 async function parallelModel(url, info, onProgress) {
   const count = 4, size = info.packedBytes, step = Math.ceil(size / count);
-  const controllers = Array.from({length: count}, () => new AbortController());
-  const loaded = Array(count).fill(0);
-  async function readPart(response, i, start, end) {
-    if (response.status !== 206 ||
-        response.headers.get('content-range') !== `bytes ${start}-${end}/${size}` || !response.body) {
-      throw new Error('Invalid range response');
+  const controllers = new Set(), reported = Array(count).fill(0);
+  let stopping = false;
+  async function part(i, initial) {
+    const start = i * step, end = Math.min(size - 1, start + step - 1);
+    for (let attempt = 0; attempt < 3; attempt++) {
+      if (stopping) throw new Error('Model download cancelled');
+      const controller = initial?.controller || new AbortController();
+      controllers.add(controller);
+      let idle, loaded = 0;
+      const resetIdle = () => { clearTimeout(idle); idle = setTimeout(() => controller.abort(), 15000); };
+      const deadline = setTimeout(() => controller.abort(), 90000);
+      resetIdle();
+      try {
+        const response = initial?.response || await fetch(url, {
+          headers: {Range: `bytes=${start}-${end}`}, signal: controller.signal,
+        });
+        initial = null;
+        if (response.status !== 206 || response.headers.get('content-range') !== `bytes ${start}-${end}/${size}` || !response.body) {
+          throw Object.assign(new Error('Invalid range response'), {invalidRange: true});
+        }
+        const reader = response.body.getReader(), chunks = [];
+        while (true) {
+          const {done, value} = await reader.read();
+          if (done) break;
+          resetIdle(); chunks.push(value); loaded += value.length;
+          reported[i] = Math.max(reported[i], loaded);
+          onProgress?.({loaded: reported.reduce((a, b) => a + b, 0), total: size, lengthComputable: true});
+        }
+        if (loaded !== end - start + 1) throw new Error('Truncated model range');
+        return new Blob(chunks);
+      } catch (error) {
+        initial = null; controller.abort();
+        if (error.invalidRange || attempt === 2 || stopping) throw error;
+      } finally {
+        clearTimeout(idle); clearTimeout(deadline); controllers.delete(controller);
+      }
     }
-    const reader = response.body.getReader(), chunks = [];
-    while (true) {
-      const {done, value} = await reader.read();
-      if (done) break;
-      chunks.push(value); loaded[i] += value.length;
-      onProgress?.({loaded: loaded.reduce((a, b) => a + b, 0), total: size, lengthComputable: true});
-    }
-    if (loaded[i] !== end - start + 1) throw new Error('Truncated model range');
-    return new Blob(chunks);
   }
+  const firstController = new AbortController(); controllers.add(firstController);
+  let headersTimer = setTimeout(() => firstController.abort(), 15000);
   try {
-    const first = await fetch(url, {headers: {Range: `bytes=0-${step - 1}`}, signal: controllers[0].signal});
-    if (first.status === 200) return first;
-    const parts = [readPart(first, 0, 0, step - 1)];
-    for (let i = 1; i < count; i++) {
-      const start = i * step, end = Math.min(size - 1, start + step - 1);
-      parts.push(fetch(url, {headers: {Range: `bytes=${start}-${end}`}, signal: controllers[i].signal})
-        .then(response => readPart(response, i, start, end)));
-    }
-    return new Response(new Blob(await Promise.all(parts)), {headers: {'content-length': String(size), 'x-rail-ranges': '4'}});
+    const response = await fetch(url, {headers: {Range: `bytes=0-${step - 1}`}, signal: firstController.signal});
+    clearTimeout(headersTimer);
+    // A server ignoring Range supplies its one full response without duplicate downloads.
+    if (response.status === 200) return response;
+    const parts = await Promise.all([
+      part(0, {response, controller: firstController}),
+      ...Array.from({length: count - 1}, (_, n) => part(n + 1)),
+    ]);
+    return new Response(new Blob(parts), {headers: {'content-length': String(size), 'x-rail-ranges': '4'}});
   } catch {
-    controllers.forEach(c => c.abort());
-    return fetch(url); // Proxies that alter ranges still work with a normal request.
-  }
+    stopping = true; controllers.forEach(c => c.abort());
+    return fetch(url, {signal: AbortSignal.timeout(90000)});
+  } finally { clearTimeout(headersTimer); }
 }
 
 async function cachedModel(info, root, onProgress) {
