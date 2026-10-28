@@ -1,0 +1,41 @@
+name: Publish verified five-locomotive release
+on:
+  workflow_dispatch:
+    inputs:
+      source_site_url:
+        description: Existing canonical railway host after its release is verified
+        default: 'https://www.crgzwyz.ddnsfree.com'
+        required: true
+        type: choice
+        options:
+          - https://www.crgzwyz.ddnsfree.com
+          - https://crgzwyz-railway.netlify.app
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Import byte-verified release and keep Pages under its size limit
+        env:
+          SOURCE_SITE_URL: ${{ inputs.source_site_url }}
+        run: node import-release.cjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v5

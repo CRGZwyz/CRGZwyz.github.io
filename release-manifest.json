@@ -1,0 +1,1491 @@
+{
+  "version": "2026-10-28-layout-fixed",
+  "mediaOrigin": "https://crgzwyz-railway.netlify.app",
+  "files": [
+    {
+      "path": ".well-known/teo-verification/pc871t8ngq.txt",
+      "bytes": 32,
+      "sha256": "4f34e2ea7dfff0655000888b3c3a88665df16c04f3dca6cb1f5b1baf87d7a132"
+    },
+    {
+      "path": "2738b4fe137730c9b73502c7a5ede35e.txt",
+      "bytes": 40,
+      "sha256": "92da03270cbdf61a81040c0758a241629dbd62cd6e73fdc9ad1182baccadb4de"
+    },
+    {
+      "path": "assets/cr400af.glb",
+      "bytes": 14301096,
+      "sha256": "09bfd2207cdf92b63ba9bde73c141f49eee61e26731ee3738bd7949c34e2155a"
+    },
+    {
+      "path": "assets/cr400af.glb.bin",
+      "bytes": 12358605,
+      "sha256": "5ee649d7a233c5880508379e9c6ad05d19b39a2dd7cba5cb48b150bfa0441ecb"
+    },
+    {
+      "path": "assets/df4d-cover.png",
+      "bytes": 144229,
+      "sha256": "0b97b0b2f95ba141f6da55b48b4a29eef7837a009880f865d4e37fd2f2ce99bd"
+    },
+    {
+      "path": "assets/hxd2-cover.png",
+      "bytes": 151907,
+      "sha256": "925d9482e90aa88930426e8643f534331b514462b8d2a9a12c9bc74e856c7f8b"
+    },
+    {
+      "path": "assets/hxd3b.glb",
+      "bytes": 15518248,
+      "sha256": "8a625f78b9efd9b423041d617b514a3c3aba4d71fb26b23f701b938286c81998"
+    },
+    {
+      "path": "assets/hxd3b.glb.bin",
+      "bytes": 11011718,
+      "sha256": "08362eceb383b8c30160b28b8cecdd52bb94dd0117147ab4afc12cf59abf7d2d"
+    },
+    {
+      "path": "assets/hxd3d-cover.png",
+      "bytes": 145862,
+      "sha256": "b757951692070f401fb49270f3729fbb5ba95be5e439335d9d37e7642053d9f0"
+    },
+    {
+      "path": "assets/nd5-cover.png",
+      "bytes": 160821,
+      "sha256": "71605a86a4d8883019fc3e4f31ba788b62e1f32368c3e8070f94dcb1f32030b6"
+    },
+    {
+      "path": "assets/parts.json",
+      "bytes": 149930,
+      "sha256": "f9cfaf04d136de3478f9608af8c3288894bc6ad00adbcf98e8e05476f57e98d7"
+    },
+    {
+      "path": "assets/ss9-cover.png",
+      "bytes": 160995,
+      "sha256": "1fa25aaad073f125cde13653cc20040fbe363847eaba30348feb6d9871f71f72"
+    },
+    {
+      "path": "cfd/app.js",
+      "bytes": 27584,
+      "sha256": "70fe7d396282bd931385e06a2ecca7b82746df42333935f8e8e6db0d8e7443b9"
+    },
+    {
+      "path": "cfd/archive.js",
+      "bytes": 11564,
+      "sha256": "43261028004a422901ccc56c45c759ebb4fc62a34382496486d44552671dab43"
+    },
+    {
+      "path": "cfd/core.js",
+      "bytes": 8244,
+      "sha256": "dcec7479c13aeca753517f576de42a0d82e9c21bc546520aa0de00b14f2179b5"
+    },
+    {
+      "path": "cfd/download.html",
+      "bytes": 2782,
+      "sha256": "b7babb4ae12f9f57c78f3366553abfc13aa7303fefda85f5e4278043a9d98dd4"
+    },
+    {
+      "path": "cfd/examples/cr400af-800.json",
+      "bytes": 9716476,
+      "sha256": "46e3b225618872c8776d2f9201c0233d6e7b21c6a5eca2decb57dc67017e53ba"
+    },
+    {
+      "path": "cfd/examples/hxd3b-400.json",
+      "bytes": 3785682,
+      "sha256": "ba0ebc1865ac2743bf6bc20dc132a6d870807a10a9790d86f5239299fba5b251"
+    },
+    {
+      "path": "cfd/index.html",
+      "bytes": 7661,
+      "sha256": "89043438447ca9e8242d9f243aa1db1abb03029cfe10b02f7a5052e643af38c0"
+    },
+    {
+      "path": "cfd/README.txt",
+      "bytes": 5952,
+      "sha256": "e6a93a921312136a13edaea1340410cb946176c33f218f5076e1c46052e6bbc9"
+    },
+    {
+      "path": "cfd/style.css",
+      "bytes": 3948,
+      "sha256": "983ac7a02280d642946b05980384b7c7ebb0d165e79b690e8d293eca9a2381b3"
+    },
+    {
+      "path": "cfd/toolkit-manifest.json",
+      "bytes": 150,
+      "sha256": "6eab838214542691f00f3c6f991ffc03ed7530ab95804c5a10e7f983a5683272"
+    },
+    {
+      "path": "cfd/toolkit.part1.bin",
+      "bytes": 20971520,
+      "sha256": "30baac9f979d45756cfbfef67f1813fcfcb3e3037c1a750f5a8888f37f8c4f94"
+    },
+    {
+      "path": "cfd/toolkit.part2.bin",
+      "bytes": 8892470,
+      "sha256": "063512fb882268da1766fe15e47d3e6f901f1efba8b5096cf1be3c6bc973635c"
+    },
+    {
+      "path": "cfd/worker.js",
+      "bytes": 1235,
+      "sha256": "9808fcd704e8d068598df6106ca470d5c6f1a4f2b3b267bf22a4bb494a543dc8"
+    },
+    {
+      "path": "cr400af.html",
+      "bytes": 7472,
+      "sha256": "44d355e42baf5eccf159f3fadb7963625fe21f876cf161c37d2415deadbc1658"
+    },
+    {
+      "path": "dead-haul/accessories.glb",
+      "bytes": 99740,
+      "sha256": "6d89c31082e89053c3eedc3ad025bdc0331a2580260fc2015a2fa31663f434ff"
+    },
+    {
+      "path": "dead-haul/app.js",
+      "bytes": 23725,
+      "sha256": "b3fa49f3b82fd08ed0263dbc6bfa6e095080805f61daf322f591b4c824b5e801"
+    },
+    {
+      "path": "dead-haul/config.json",
+      "bytes": 761,
+      "sha256": "ca44268e5c9e794e8a5d137a9d6b5e9887f78db75f0341b011f9170ecc730cf7"
+    },
+    {
+      "path": "dead-haul/demo.mp4",
+      "bytes": 6288221,
+      "sha256": "836bc67dde936a1f2b96de63697752acb17c3e4fe5c10c74c084a5fcebd53925"
+    },
+    {
+      "path": "dead-haul/hxd-parts.json",
+      "bytes": 20383,
+      "sha256": "35f87683b71cbf9a6cba3750416a6aa871a44fafa5ab673d2034836576d844d1"
+    },
+    {
+      "path": "dead-haul/index.html",
+      "bytes": 4977,
+      "sha256": "0e99ac23af670ceec92817b0088164ecfa7bf5bd44f56814a120a29fdb4fbd92"
+    },
+    {
+      "path": "dead-haul/overview.png",
+      "bytes": 252484,
+      "sha256": "33c5dd73e23ef287ae085b2f1f8c6819b6c784b00b6c34b018eb0c8d29285c90"
+    },
+    {
+      "path": "dead-haul/preview.png",
+      "bytes": 480058,
+      "sha256": "1fb2960fe4d281c135670adcfa559faf8afa46deeed59a35b53df16520b1f480"
+    },
+    {
+      "path": "dead-haul/style.css",
+      "bytes": 6357,
+      "sha256": "d8d14e8ba7be00bbd3f635c0089f14b7a85ab6de3b61b6020ec530053cd5fff7"
+    },
+    {
+      "path": "dead-haul/watch.html",
+      "bytes": 1784,
+      "sha256": "f86a6fdba76bbb7ed560fde7aad046b9100de57dc89275b6c36c55a26b7252bb"
+    },
+    {
+      "path": "df4d/assets/df4d.glb",
+      "bytes": 2789368,
+      "sha256": "dbf68b438b5e2745e1f5707236754bddba197f750511fd0c352ac2f808633cca"
+    },
+    {
+      "path": "df4d/assets/parts.json",
+      "bytes": 30948,
+      "sha256": "d5cdec07f657e3ea1ad042a40c1995f47541a2728693b2e2bf50bbad795eff0b"
+    },
+    {
+      "path": "df4d/df4d.css",
+      "bytes": 6656,
+      "sha256": "6e51ad9d2609e6f1644a58a321f0dc0732af8eeab99ab6573f6e47d028a2c9b9"
+    },
+    {
+      "path": "df4d/film_state.js",
+      "bytes": 2312,
+      "sha256": "fdb027ef1fba44b581e43a9364acb1bec5de9a5900c43eaee94d1a62ccb5a50c"
+    },
+    {
+      "path": "df4d/film-wind.js",
+      "bytes": 2884,
+      "sha256": "2f0e03098a3da4d039b399f86990fbea48d4f6e178a14a26c2b13d621d9d9757"
+    },
+    {
+      "path": "df4d/film.html",
+      "bytes": 8878,
+      "sha256": "48b217f01240755ad5546ebb66156c25b4b49284900fc159fc35a2bf981a2b81"
+    },
+    {
+      "path": "df4d/index.html",
+      "bytes": 5412,
+      "sha256": "7bf1bcea97776b863eb2b41444a657ea27cf74b3070cf255eaba25020680fd31"
+    },
+    {
+      "path": "df4d/studio.css",
+      "bytes": 18585,
+      "sha256": "5a66056c24fb335334d3c27dc405c50fd132fadfe31aa3830c37ed3cf4eadd0a"
+    },
+    {
+      "path": "df4d/studio.js",
+      "bytes": 108697,
+      "sha256": "2fb5d8ed671a912f20be75491575c6cd686ff31d12e3698c37e17566c4114581"
+    },
+    {
+      "path": "edgeone.json",
+      "bytes": 2628,
+      "sha256": "579090f05dcba0fb69b1d58ba9439bfabf16c59d57da53f9d96c5f2bb127db84"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 11502,
+      "sha256": "32ae2d98817336a1ee49dfeef10743d8553a48cb2179c55901e2e8d99f4fffbf"
+    },
+    {
+      "path": "finish.js",
+      "bytes": 2441,
+      "sha256": "7a834252a723f5f71caa0f37f658e39f37ac89a4acc06e9425ec6ed7a2ef3a2f"
+    },
+    {
+      "path": "hxd2/assets/hxd2.glb",
+      "bytes": 4212252,
+      "sha256": "529a7f91a39c418ebecd8cd03df8654c8cf989776fd9339533266961025130a3"
+    },
+    {
+      "path": "hxd2/assets/parts.json",
+      "bytes": 26917,
+      "sha256": "33a0d4bdca166e6681eea95fd97d63a00ac9dcf84dd7eba30f71e9077b66ecf7"
+    },
+    {
+      "path": "hxd2/film_state.js",
+      "bytes": 2311,
+      "sha256": "d32e498908f8adecda253b4664bd3da0d60aa352b7ef24a3dd814fe362f22e0d"
+    },
+    {
+      "path": "hxd2/film-wind.js",
+      "bytes": 2884,
+      "sha256": "304c777bdf0fd84077ca0ab6ffbae61f7fe14eb6d658f37e11a13196241a472b"
+    },
+    {
+      "path": "hxd2/film.html",
+      "bytes": 8872,
+      "sha256": "f832e0bcfff285d91743595143938271936d98e02858f6a4c510af400e3133f0"
+    },
+    {
+      "path": "hxd2/hxd2.css",
+      "bytes": 6656,
+      "sha256": "0f9e077c24d469e9ccd4cc139f73b6db1d7304477218f96a7bf7b01f6b525c38"
+    },
+    {
+      "path": "hxd2/index.html",
+      "bytes": 5407,
+      "sha256": "ee32642e48f09d93020477eb6463ecc8cd37a983c46834a3dd733d367f34b5a0"
+    },
+    {
+      "path": "hxd2/studio.css",
+      "bytes": 18240,
+      "sha256": "1e74e371568b820855ce42b8c2681b738c05f080eb4a1d3518a7e9497f1cfef0"
+    },
+    {
+      "path": "hxd2/studio.js",
+      "bytes": 109099,
+      "sha256": "38d9cabc36a3face53a0a0c0b2fff9e136a2a07210c01441c1f0dbbbebf14360"
+    },
+    {
+      "path": "hxd3b/assets/hxd3b.glb",
+      "bytes": 15518248,
+      "sha256": "8a625f78b9efd9b423041d617b514a3c3aba4d71fb26b23f701b938286c81998"
+    },
+    {
+      "path": "hxd3b/assets/parts.json",
+      "bytes": 31539,
+      "sha256": "48282779d0a35de931d459b415cd3df2c8455310649fa16b8742c732d73ca1b4"
+    },
+    {
+      "path": "hxd3b/index.html",
+      "bytes": 6107,
+      "sha256": "e6e1a41f6f19eb2a47f00637e3afc1de833713e15b6d2a79709abc107654a471"
+    },
+    {
+      "path": "hxd3b/studio.css",
+      "bytes": 18585,
+      "sha256": "5a66056c24fb335334d3c27dc405c50fd132fadfe31aa3830c37ed3cf4eadd0a"
+    },
+    {
+      "path": "hxd3b/studio.js",
+      "bytes": 52838,
+      "sha256": "d8d0bd9a32471ef10175da9c1f0b2ec0d6f530b2b0adcee3e25925df3757829c"
+    },
+    {
+      "path": "hxd3b/vendor/addons/controls/OrbitControls.js",
+      "bytes": 33657,
+      "sha256": "00021f896fee7accad035ada2b72abd9e12f21de349896576e8fd75d9542989e"
+    },
+    {
+      "path": "hxd3b/vendor/addons/environments/RoomEnvironment.js",
+      "bytes": 3750,
+      "sha256": "c7f7c674896230327e9f2ac0ee931a1d88a746f13a7c963277cadfcac1570dd7"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_decoder.js",
+      "bytes": 512498,
+      "sha256": "a47cd7c84911c5175bb0511c01ba41ddafb71873fd391f055def514398f5e7c4"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "hxd3b/vendor/addons/libs/draco/gltf/draco_wasm_wrapper.js",
+      "bytes": 58572,
+      "sha256": "f3ab54e2feabfe8bd37928b5f400bc10230dcc278c7e70bca5e025f63519d960"
+    },
+    {
+      "path": "hxd3b/vendor/addons/loaders/DRACOLoader.js",
+      "bytes": 14314,
+      "sha256": "eb4efeada4831874bf83b1894d99cd46a1540f64945a4d394a1a1dfe398bac8c"
+    },
+    {
+      "path": "hxd3b/vendor/addons/loaders/GLTFLoader.js",
+      "bytes": 114754,
+      "sha256": "f6a88fb108dfd359c32442c6d8e6bbe83838fe9fd3b49dbd74d84e80f50c61a7"
+    },
+    {
+      "path": "hxd3b/vendor/addons/utils/BufferGeometryUtils.js",
+      "bytes": 33141,
+      "sha256": "5beb9dc7e9248a32f7b5e8cc0dd5fd4054d227d8e19a3a98b4715f6d2784c4ef"
+    },
+    {
+      "path": "hxd3b/vendor/LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "hxd3b/vendor/three.module.js",
+      "bytes": 1358975,
+      "sha256": "589f8422cd2aa47b9133e47744a2112e34952090dfa9384b707481e34b840694"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/app.js",
+      "bytes": 31929,
+      "sha256": "a11731184ff5f6ba798bf082b01a6c205e4f7699b782665329bedc6b404b92a2"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/DATA-CONTRACT.txt",
+      "bytes": 3777,
+      "sha256": "e752a7a111640821ac1e8c8a3736c81c1f4035b886a2e57bbde1e07c85038dd5"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/data.js",
+      "bytes": 26481,
+      "sha256": "4adfee7d09afa9cafc14fd491ebe26d093a8e2785c25e8712bb05a32988b2ee8"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/data/synthetic-V100_W05.json",
+      "bytes": 5495,
+      "sha256": "db092ddf2dd998ccf6ec679f5d4ad0dae34f55dc65c26dca591792c7bd02cd42"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/index.html",
+      "bytes": 12517,
+      "sha256": "a5c1329a904f52a44b1506c5df571381709b7d9fabde41af1a05ffdfa4d7aba1"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/runtime-report.js",
+      "bytes": 3277,
+      "sha256": "500377d54061514b14339b5f0a49bb8d9443487e327a077e3be9be202ddad0e2"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/scene.js",
+      "bytes": 29628,
+      "sha256": "408f914e36871e9e023d8fe9f495a7fbbb2da4a7e4d28ebf9d18f2869050ae6b"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/schema.json",
+      "bytes": 7046,
+      "sha256": "299a00ec99337f2f79b255fe216f3e3b84f300f1da2c3c3659966151e87f5007"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/state.js",
+      "bytes": 5224,
+      "sha256": "325af3765de19757ce90a988ec65552645b7a755582d7a969e6420a917184c0b"
+    },
+    {
+      "path": "hxd3b/wind-tunnel/style.css",
+      "bytes": 12835,
+      "sha256": "e5a4f7af356fdbe3be2bdab0a0154d46fb6809ea690f82ba716f97cc0c4ef0d9"
+    },
+    {
+      "path": "hxd3d/assets/hxd3d.glb",
+      "bytes": 4042216,
+      "sha256": "fd89751bf6e782481deaf4f839b955e9e8d6e0ad64837a83ec22e2bf66a7714e"
+    },
+    {
+      "path": "hxd3d/assets/parts.json",
+      "bytes": 19229,
+      "sha256": "f485d9d39bbdcd851f485025941512f8d1bf79ee88c29f181161c51248905547"
+    },
+    {
+      "path": "hxd3d/film_state.js",
+      "bytes": 2316,
+      "sha256": "acbd23e62a64042cfa07aa7021a855896a3376ad09fc3b1e907bcef768ed4dcf"
+    },
+    {
+      "path": "hxd3d/film-wind.js",
+      "bytes": 2890,
+      "sha256": "4ef912184972d90cdcf2d5e5ce461bc596505f2e20504ea91f546bf7dc9674fa"
+    },
+    {
+      "path": "hxd3d/film.html",
+      "bytes": 8890,
+      "sha256": "042f460be8d4fa547d847c6d056f4ba650f3fede4f1ec510ea4d3a986f045fbd"
+    },
+    {
+      "path": "hxd3d/hxd3d.css",
+      "bytes": 6657,
+      "sha256": "332badf9b072dbb17c788cc09ac120e0baec4b2a9fedf8c3a342897de2b829d2"
+    },
+    {
+      "path": "hxd3d/index.html",
+      "bytes": 5414,
+      "sha256": "8bb8a8f3f5164ed31783dcf941e1c2f7d980aadef76a5ce14551780ecf7d00f9"
+    },
+    {
+      "path": "hxd3d/studio.css",
+      "bytes": 18240,
+      "sha256": "1e74e371568b820855ce42b8c2681b738c05f080eb4a1d3518a7e9497f1cfef0"
+    },
+    {
+      "path": "hxd3d/studio.js",
+      "bytes": 108783,
+      "sha256": "960737678206042987ccb546992f9a8198b780d9e2501a7ea0b9fb179b4d9236"
+    },
+    {
+      "path": "index.html",
+      "bytes": 324,
+      "sha256": "39249452e9f985d0c407cd39bc10c8550c2c9ed03bea14396e79ca20f206dea6"
+    },
+    {
+      "path": "knowledge/catalog.json",
+      "bytes": 30884,
+      "sha256": "9ce9510ddb6ee8c57bacf328b3ba4e4d52a9184601c3036345e6ea6062114e67"
+    },
+    {
+      "path": "knowledge/categories.json",
+      "bytes": 1567,
+      "sha256": "863cf9785ab9a9ebe74bf5ad3c4b379388600778e54d4f9be439d814ff70e5ee"
+    },
+    {
+      "path": "knowledge/index.html",
+      "bytes": 2577,
+      "sha256": "4074c0e38111692d2caae45ecc8d969f8f4244d782a7dccb35d812efb27b0c26"
+    },
+    {
+      "path": "knowledge/knowledge.js",
+      "bytes": 8415,
+      "sha256": "d4a91a22688e1ce066a3af8f0308ab6540f36f38652e45d1937f862b5bcbdd73"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-air-brake-poster.jpg",
+      "bytes": 141888,
+      "sha256": "345e1ee355b8e07506f62797f62ee9ee769a8322dba7c1456cbf3162378ddc2e"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-air-dryer-poster.jpg",
+      "bytes": 159286,
+      "sha256": "07a443f7bd916e062b49b650880c2b2587e155d49c524634e17550a859797c5b"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-air-horn-poster.jpg",
+      "bytes": 88992,
+      "sha256": "f3c74b5eb62e24a12bbbe7367f258d673ada3929f3112547524b6b69a9112735"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-air-reservoir-poster.jpg",
+      "bytes": 109706,
+      "sha256": "c34666e3effa3d9421018c3542173c4b2b67fdc34cda51b22b48ad3436064d0b"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-axle-ultrasound-poster.jpg",
+      "bytes": 109973,
+      "sha256": "9a974bfb6071d57772f06081afc3d4ecaba5a70256aa79c1af7e7260290717e0"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-axlebox-poster.jpg",
+      "bytes": 125393,
+      "sha256": "141e67c5c6b7ac07f3093764f66a1f6c33ecfe6ae33772fc8d6f5c541ab4f863"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-battery-backup-poster.jpg",
+      "bytes": 134066,
+      "sha256": "208d2ab529b18e6d33b04a341e01c9851737f5a8337c819cc2d9366bbe0a5830"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-bimetal-switch-poster.jpg",
+      "bytes": 92863,
+      "sha256": "0265c6822cae00cb8abdcc5bce39e653eb127130c823f4bdf9f893d219db478a"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-bourdon-gauge-poster.jpg",
+      "bytes": 103682,
+      "sha256": "f600f65a80297ab7a3bda441f4b78f337e27954447de7f0bdf17f30ae0bc0d16"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-brake-poster.jpg",
+      "bytes": 126735,
+      "sha256": "e587a9267fa740e8e34c134f26a7cbeaf126346fad0db4c28b94eddbfad8de80"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-bridge-rectifier-poster.jpg",
+      "bytes": 84013,
+      "sha256": "971221611c77a68a53a0daf13e86794474623340f422599e912b53f72d42842c"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-cab-hvac-poster.jpg",
+      "bytes": 148325,
+      "sha256": "1bd80f9b0b3f440b015c1304b77e996b5d9cf4364de0f1cc009bb8d769a33b55"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-cable-gland-poster.jpg",
+      "bytes": 118487,
+      "sha256": "9e7de0db052b149028f86fa6e928c097f4eb45c99132179e992162a2671873d3"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-cable-shield-poster.jpg",
+      "bytes": 139245,
+      "sha256": "8e8f42637e76f65ea5485701cf33a324195ba24cf25c606e859af99f4521a388"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-cardan-joint-poster.jpg",
+      "bytes": 95590,
+      "sha256": "4f1c3b738528d4ba5d6a741aa20c58f4067f5f390cb1ed008bae6b0596a8d751"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-check-valve-poster.jpg",
+      "bytes": 96057,
+      "sha256": "012b3652d94988ddd079bd1238095ab43192d205400653b5660274757f2d927e"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-compressor-poster.jpg",
+      "bytes": 101875,
+      "sha256": "b721fa1f7e1649b77a652ccc2e0311d908e1941b96036e017d78c95aa9cfcacb"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-control-relay-poster.jpg",
+      "bytes": 133895,
+      "sha256": "bda15601f857a538154853a7103f195668f3ad90fb71343598b1c4dc615ad437"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-coupler-poster.jpg",
+      "bytes": 109491,
+      "sha256": "ee9b09c4ec0a759f97f7caa7d3cb3937302db240f6192af4fe97f36d7b6515d0"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-dc-link-capacitor-poster.jpg",
+      "bytes": 117923,
+      "sha256": "d8edd83f26738327c631c620de196d4fb0916a145903d2d140055ddf7a74fa15"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-diaphragm-regulator-poster.jpg",
+      "bytes": 142748,
+      "sha256": "52a8f9d4507d9a1ace7d27de36d1fd0ac249139a66ed8ed6b1e4edcd03f5f988"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-disc-brake-poster.jpg",
+      "bytes": 78250,
+      "sha256": "dee8192e32e7d2282b38fd9cb4f36706782b2aafae22c49e0ed4d3bf108851d5"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-disc-coupling-poster.jpg",
+      "bytes": 105380,
+      "sha256": "88a45317c0cba6138a4b076efd40c86692b5661619415d33dba93d730c426632"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-expansion-bellows-poster.jpg",
+      "bytes": 130012,
+      "sha256": "9c004a16253404a682ac0641eff2f2d5bad8937df8d394be63923ac197fe651c"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-flange-poster.jpg",
+      "bytes": 72967,
+      "sha256": "8e7114546add3f31478f480978575baf6c142d4b9700708ba6bc8422c8e33f59"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-flyback-diode-poster.jpg",
+      "bytes": 116497,
+      "sha256": "c43c64a5e69714bef74427b6f371d65d6528fd4c84708a61777a3d5a6d1b3898"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-fuse-element-poster.jpg",
+      "bytes": 84562,
+      "sha256": "d1bf7149723174b2b3ac516345dbab68a1117980430a49a03e3d2aa6413ae94e"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-gearbox-oil-poster.jpg",
+      "bytes": 135307,
+      "sha256": "51458525fbc714705a241003ced494290009b3279eff088fea86cdbc1b4d9707"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-grounding-brush-poster.jpg",
+      "bytes": 105199,
+      "sha256": "1a6b405994792d8c03c9f4dd79c59287cfff0169b43f300661a03e9ed7d5e7ad"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-hall-current-poster.jpg",
+      "bytes": 89848,
+      "sha256": "472cf3633cb63d0c61ca4f888686e2d1688e52ff2324a3a3fc554f8847b0955e"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-headlight-optics-poster.jpg",
+      "bytes": 87251,
+      "sha256": "526f2d448a32183c4007617823049029efc04396188cf689c4a5f6265a2fc8c1"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-induction-rotor-poster.jpg",
+      "bytes": 143918,
+      "sha256": "c31ffd1fe0d2eae92d7c1abadeb52dd0ff37fa4e2915611ca7bd24af4fea6752"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-inductive-proximity-poster.jpg",
+      "bytes": 110612,
+      "sha256": "d8542e5cdb7cbad78d65f97ba9ae35dd720f6f375e4b6e9310cbc7d11f178596"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-inverter-pwm-poster.jpg",
+      "bytes": 119630,
+      "sha256": "eb06c7cc266f8adf5b0c4b6baf13c395d293da1f5776f3c7ad6398d3145956bd"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-labyrinth-seal-poster.jpg",
+      "bytes": 122019,
+      "sha256": "15a0b691a64b2bdbe9796316ec56c6b623dda5c3fdf3a576087573fd3020bcf2"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-main-breaker-poster.jpg",
+      "bytes": 102687,
+      "sha256": "595966639da24eabbc5d71376322336d23b18b3642bcca075e67daa68cdcc515"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-motor-cooling-poster.jpg",
+      "bytes": 109660,
+      "sha256": "395befcd1d853cabb197d73c6b576487243e42db719de41378d7d3f4996f0145"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-needle-valve-poster.jpg",
+      "bytes": 142513,
+      "sha256": "39b9cf9d50f5fef0d6de487c87c87ccee36b0eae5589ee53fef1f95ef1b04d43"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-neutral-section-poster.jpg",
+      "bytes": 98500,
+      "sha256": "2def2c03e28e299ae4d66de0a8ee3b1c7735db00e0309e5227ad578dea3e840a"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-optocoupler-poster.jpg",
+      "bytes": 106483,
+      "sha256": "264dcaf32ddadfc76e7be120827bf848872c425c78e2c29a2011a3f35e54569b"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-pantograph-poster.jpg",
+      "bytes": 93181,
+      "sha256": "9ae1cd2cf98fe8128106ba9eeb79c8cc78ea9ed3749d8048a4e25f11bb9fcb8d"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-parking-brake-poster.jpg",
+      "bytes": 102329,
+      "sha256": "21f4e53a96a679f2bceb38908fec6689cac15d1701eec5d9fa982d83e832d395"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-pleated-filter-poster.jpg",
+      "bytes": 99247,
+      "sha256": "8a280545f9eb907e45829f8aeba34979b464da4303858b6c32c311380c86f2d0"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-power-poster.jpg",
+      "bytes": 164474,
+      "sha256": "18d65a7ded024e8052f1c9964915d497e54b02f9f52f1081c25a73720f822007"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-precharge-poster.jpg",
+      "bytes": 118104,
+      "sha256": "0d5d3493302c054c590ead92015461d1b1ee73c5bd9ec0256bbf262311682302"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-reduction-gear-poster.jpg",
+      "bytes": 104202,
+      "sha256": "a5860684a4799c32ba2b6f595193d1bd744ad405a0358d130c55e3b4d5f35b7e"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-roof-insulator-poster.jpg",
+      "bytes": 108436,
+      "sha256": "17a6ca2a1376f686c7e5d4eee84027fc524b60d62e54690d76305e78d7e632b6"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-rotor-balance-poster.jpg",
+      "bytes": 94725,
+      "sha256": "c71fadc5cefd2c6af01f0b56270303b42ab99993445a3deff7e6f29dfedf1b45"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-rtd-temperature-poster.jpg",
+      "bytes": 90261,
+      "sha256": "6d182a8aff3cb6fb1fbbfbb42d1b0f21bd47b7d9d1316653bfd15f34dcd6e3ba"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-rubber-bush-poster.jpg",
+      "bytes": 121745,
+      "sha256": "17675080ac7c5402487d5826ef4d1c2dfde72e96bcb7869d9c2e06760d4ff97a"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-safety-valve-poster.jpg",
+      "bytes": 103213,
+      "sha256": "a210fd030da45daa2760c4792f8cb6a0e02b4faf88fe8a0a21847b2ef578a9b4"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-sanding-poster.jpg",
+      "bytes": 153659,
+      "sha256": "6c5bca9ba0995f6d92380862b63225accca9ff98e25d2f042226828c49029735"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-shuttle-valve-poster.jpg",
+      "bytes": 112033,
+      "sha256": "00e2814e28a9e3d4616bef8fe1c843c9765741823317c7ad56b98e4b2b440b33"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-slack-adjuster-poster.jpg",
+      "bytes": 108823,
+      "sha256": "9a2bad6e581d0a7136e41e46f8e36189f1551535fb38e6397453cda651c32c9b"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-slip-control-poster.jpg",
+      "bytes": 141043,
+      "sha256": "8f25edfaf71f77d7f08ac619b1985f3f523f2805a0401f5db608cc38003301b5"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-solenoid-valve-poster.jpg",
+      "bytes": 113996,
+      "sha256": "c2920d8966f51481f66c463e1fa59d454646f20533dd50d850a837140b636338"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-speed-encoder-poster.jpg",
+      "bytes": 112207,
+      "sha256": "ec626734b333e6e38e4d16f4e7463b720f436677882158ef24fded191aaae3a0"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-spherical-bearing-poster.jpg",
+      "bytes": 96289,
+      "sha256": "545d18ac8934c4eb8a4b9e1ceb482a5faa451532efb548f903937d3420641e87"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-surge-arrester-poster.jpg",
+      "bytes": 122220,
+      "sha256": "715b9e99d050411347760ee8e1e9aad6db4e9cca8611fee13a7a65312f07fef8"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-suspension-poster.jpg",
+      "bytes": 177022,
+      "sha256": "2b2ef4ae2dd1ec984014c6164638bb9da1da645f92a8be6b085c8b2ba8271c12"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-traction-link-poster.jpg",
+      "bytes": 156341,
+      "sha256": "bfc3ea719c7ca6b1464f28df164a9e126762a0eb7fd3e27399e630068c6902f4"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-transformer-induction-poster.jpg",
+      "bytes": 150691,
+      "sha256": "f460fc8168fc81b2adb687ade14683d8cec5d94537238b30fae02cc526d55410"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-twisted-pair-poster.jpg",
+      "bytes": 138094,
+      "sha256": "c49db9d920b5ab1b6e3297aaf68b515ec826de3418425de6b8ab90a065688025"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-wedge-lock-poster.jpg",
+      "bytes": 92375,
+      "sha256": "8471a693e219234bfd90e9d2859af593611600a23041ccfae8a3a786da916cc5"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-wheel-pressfit-poster.jpg",
+      "bytes": 145955,
+      "sha256": "ee29cbdd8505022fcc008d4abc95687e699d867dd48a1ec3571398bd4e8b67dd"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-wheel-reprofile-poster.jpg",
+      "bytes": 108506,
+      "sha256": "d3a68ad894fe3791113a62875fc3d8a7f332d66d608e874f7ec2dd09bb3c1879"
+    },
+    {
+      "path": "knowledge/posters/HXD3D-windscreen-wiper-poster.jpg",
+      "bytes": 129561,
+      "sha256": "8878fd16ddd3d7850753b55e3336a40fb00df678cab921d77001bd033ba60ce6"
+    },
+    {
+      "path": "knowledge/style.css",
+      "bytes": 6531,
+      "sha256": "8b1bf6d644288e1a109f5a12b722d95a7580457974f955a81760060579521225"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-air-brake-train-journey-v2.mp4",
+      "bytes": 7980659,
+      "sha256": "976818d9b9e990574a1de03f5c7b386f6fd7005adf07edf757a4aad9dc0b75ce"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-air-dryer-60s.mp4",
+      "bytes": 8120810,
+      "sha256": "8f3be5b09262e62114f02f1c7efd517fb7e422c98a52af0fa4ab84fa1fb4b258"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-air-horn-60s.mp4",
+      "bytes": 8724916,
+      "sha256": "e1a57c31e96fe30187e8ed5189061ed965bb0037fa9a8720166d40669af61a78"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-air-reservoir-60s.mp4",
+      "bytes": 7478332,
+      "sha256": "71517306bd201fb3a281570b8defcbfd971f6887dc584a5b8d88b494832a92be"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-axle-ultrasound-60s.mp4",
+      "bytes": 6579672,
+      "sha256": "53b199b4d4cc5f7065416b9fcfd046e544f185d59dafea5952364e7e007f5d9b"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-axlebox-60s.mp4",
+      "bytes": 8148427,
+      "sha256": "80a36c0830454505ff787fbf7dfff57e15612cae737110b2bf0bef3a2f2dbc49"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-battery-backup-60s.mp4",
+      "bytes": 7498301,
+      "sha256": "33ebf8f9cd9224f4efb711f10f7b4db2a449ac91817c2031fca6e704f7906ffc"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-bimetal-switch-60s.mp4",
+      "bytes": 6509240,
+      "sha256": "d62b8ef548b64c11c2de2ca400630285890f27b52b758fa4a33dbff45cd8fefc"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-bourdon-gauge-60s.mp4",
+      "bytes": 7679466,
+      "sha256": "5f114d8fc019ae56415738339d26f076c8017de7a8b9937d7ae3d2846a594a67"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-brake-train-journey-v2.mp4",
+      "bytes": 10793803,
+      "sha256": "ae1afcbf5549e7c0f87b0ea5f994c89e933747d5a3892b37bd9118ef22abb358"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-bridge-rectifier-60s.mp4",
+      "bytes": 7308700,
+      "sha256": "a06317b1e1a1026ece276eaf111259724d639b4d0989387d668eadf3dfb2140c"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-cab-hvac-60s.mp4",
+      "bytes": 10131493,
+      "sha256": "7fca9dc32063d835f436e8ec83e8a6910816ca32a54bb1c9bd30a4896cec87c7"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-cable-gland-60s.mp4",
+      "bytes": 6184596,
+      "sha256": "cc4485f4f8a1742215476f8b0364c99ddb4402fb814c2a8ebd25d3f957dd4b56"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-cable-shield-60s.mp4",
+      "bytes": 11754407,
+      "sha256": "29a29a473ab03aa8be47d17e6250eb559a439c74c632eeaa722a1f7c6ef9c018"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-cardan-joint-60s.mp4",
+      "bytes": 11176191,
+      "sha256": "4d861f2e29d42e5a39c2d3e1e7dbeb5f9f9a12fd98d10bd7faf345cc65b6e77d"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-check-valve-60s.mp4",
+      "bytes": 7211309,
+      "sha256": "ba87be579ed7c98d4c735519977a0456d0cc9464bd1dcf16d61cb0df03e79af8"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-compressor-60s.mp4",
+      "bytes": 6271481,
+      "sha256": "55783059240bdf9ad491b63503c560c9a6cad4e27a8e910e89850819b8a19839"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-control-relay-60s.mp4",
+      "bytes": 7341004,
+      "sha256": "185738eef85ac821dac9ff4fd8091d81df79f40b138ab122daa24112e875ab67"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-coupler-train-journey-v2.mp4",
+      "bytes": 5881923,
+      "sha256": "8d3839fd85306fbb3ed6810926eae3d6bcb6aa0763ef0d7f063a438a2370e2f7"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-dc-link-capacitor-60s.mp4",
+      "bytes": 8112850,
+      "sha256": "911a6a1de3b9137cea9a73fcdf14203cc43839cd4fdfad45f2127610deb53e91"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-diaphragm-regulator-60s.mp4",
+      "bytes": 9475126,
+      "sha256": "ebc6d869faa7c4af55c58da2a3e47eb3c537a5ad7689ae10707fa719679b8f3d"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-disc-brake-60s.mp4",
+      "bytes": 6274653,
+      "sha256": "a9135b3639547d9d8580eb5fb810bdda624f78202dd386623db3f923ed580b60"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-disc-coupling-60s.mp4",
+      "bytes": 9183530,
+      "sha256": "5234637d82c1529677131bdc0d264aa69a14d232e45616eb0b9c00125d67dcd9"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-expansion-bellows-60s.mp4",
+      "bytes": 8214352,
+      "sha256": "475929e702fefe698bad11c243df7f3144e5b5ae800225282d007841fd4504a1"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-flange-train-journey-v2.mp4",
+      "bytes": 5731166,
+      "sha256": "05d03bd48925af09444eb7d0c02973f5af1ad0d29147cecd17f2f04187f765a3"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-flyback-diode-60s.mp4",
+      "bytes": 8607660,
+      "sha256": "8c4077f71f26c3a39811c09d01c8b073b8d58cb8e50beeb1169fdb157dd3d3c6"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-fuse-element-60s.mp4",
+      "bytes": 6623836,
+      "sha256": "8d8b3e86dd1d7ecb92d68b4461655058b6ec0d67ec4b2b4c1c7c84dea009de24"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-gearbox-oil-60s.mp4",
+      "bytes": 15949661,
+      "sha256": "62894727aad146ae8e433c830ae3fa6a64dfdd1edfe1830e52b8be5005972fac"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-grounding-brush-60s.mp4",
+      "bytes": 7804309,
+      "sha256": "be1d348a1e484d92c1ae7a863313d31f94b686048012be32779da5d408d463e5"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-hall-current-60s.mp4",
+      "bytes": 6382529,
+      "sha256": "205d5a2af2063f09311351dea6b500f7dff38fa9c7acffe2a6acd12ed01168be"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-headlight-optics-60s.mp4",
+      "bytes": 7034809,
+      "sha256": "edd276a0af4917bec9ee44e097bd27caf7ed95fd17478e53a457e404fd6d93e2"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-induction-rotor-60s.mp4",
+      "bytes": 12368210,
+      "sha256": "51ba5548e7ac8a9aa0f59340a675086ef9eed62c70d6e00d141eaec27cb8e9f8"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-inductive-proximity-60s.mp4",
+      "bytes": 12185004,
+      "sha256": "e0a76666214f571e99bbf93eda4272099b68cc86e5e7d7db45ecce46d900e95e"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-inverter-pwm-60s.mp4",
+      "bytes": 7616036,
+      "sha256": "102d63865a13e0cbb8fffb3d24e394ad0d684b9f8503372140137535103f01df"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-labyrinth-seal-60s.mp4",
+      "bytes": 8236519,
+      "sha256": "db5ae35ae49740ddc7b4aae5c0139f54ab8d7d5267c8c68b10d0cab4c2fc0297"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-main-breaker-60s.mp4",
+      "bytes": 6647869,
+      "sha256": "5c2f39b62bea43f0e78836b6c7032d30f250cb0a0b63de0fec1211d6ca684a93"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-motor-cooling-60s.mp4",
+      "bytes": 8821235,
+      "sha256": "7354221cfad50ee265f3c055adc6024e9f0d8333b50a52ca22391472fad6f1e1"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-needle-valve-60s.mp4",
+      "bytes": 9328342,
+      "sha256": "15d3063a14e2d408ab5f0561bc5f3b80f4b358cd7a700432772521ef116b3c85"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-neutral-section-60s.mp4",
+      "bytes": 6926311,
+      "sha256": "a4abf3d855cae7d7641cee245b749f846c594be84c446faa3ea5b94d2b832b92"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-optocoupler-60s.mp4",
+      "bytes": 8193050,
+      "sha256": "1b072d270a4fbf061fe0c7464bcccb2477b3182cebc1117328b86d3c73503eb4"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-pantograph-train-journey-v2.mp4",
+      "bytes": 8901655,
+      "sha256": "04bbddd8904f9c624d3b7ff6cc3fb929c86ed0ddaab0beda2e1dec3a27aad07e"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-parking-brake-60s.mp4",
+      "bytes": 6603981,
+      "sha256": "579f8559f9a9f868a695a2eb6e9a3871fea84b0c69b781dbb68d237aabe65a9d"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-pleated-filter-60s.mp4",
+      "bytes": 7425408,
+      "sha256": "b099c6e8e7208722a64819395802f6c4dd1dd40ba95961d04e7d50612e5a2a95"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-power-train-journey-v2.mp4",
+      "bytes": 14888614,
+      "sha256": "3d3651b87e99ec056e008ad3e930ac987d7355d63bec0c2ca59aacaa31d3febe"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-precharge-60s.mp4",
+      "bytes": 7757210,
+      "sha256": "b9903e81d2a5ba8d429fce7ebe53a674c26cf6487e1d1e71e6014ffbafc08260"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-reduction-gear-60s.mp4",
+      "bytes": 10274180,
+      "sha256": "31155983b7f2a9f8f0587ea107f35d43526991f429234b3e00261d5a393fce03"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-roof-insulator-60s.mp4",
+      "bytes": 6331095,
+      "sha256": "69ed1c561123b3ca7fd173691700ccfa98fd8c4e995911e80ea28e723a15b5b4"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-rotor-balance-60s.mp4",
+      "bytes": 8464757,
+      "sha256": "fd94e2796d7b15def2ec68addfdbf9ed743e76afcb7668c5d406aae2727cd47d"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-rtd-temperature-60s.mp4",
+      "bytes": 6282082,
+      "sha256": "7632175d59a0d199ac31b0bab8b92848a52cde385b1226ec068951503bbfdc50"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-rubber-bush-60s.mp4",
+      "bytes": 8322664,
+      "sha256": "5ec6bb5610790b3b1aab6f381e0ac2371948fb30687116e61cd0407031732c85"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-safety-valve-60s.mp4",
+      "bytes": 7275174,
+      "sha256": "59e832534fcb404dd7b36583510bab1a510a9114c101464290360559c0f4d464"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-sanding-train-journey-v2.mp4",
+      "bytes": 11791584,
+      "sha256": "3b484cc1cbedb91491aa9f64c57a0f99d9c3f5073ccd2f88449064bfd3932471"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-shuttle-valve-60s.mp4",
+      "bytes": 7694270,
+      "sha256": "bad72bc41cdbe689905211bcc6f3f0ba111f9ab270edf1d1e4760cec9842e051"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-slack-adjuster-60s.mp4",
+      "bytes": 7050133,
+      "sha256": "f614264e10ef99a07108c3d93721a8f58d87607ed872f2655047a6d6304fea99"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-slip-control-train-journey-v2.mp4",
+      "bytes": 9770921,
+      "sha256": "4fa6a45ad40ab29d2368c03353ff23623e703bcde1255f44f31554c6a4ebca5a"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-solenoid-valve-60s.mp4",
+      "bytes": 6330775,
+      "sha256": "5edb855593ab7d97e27b7e57266414eaae4f231e57ee0a24400cdd33331607a1"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-speed-encoder-60s.mp4",
+      "bytes": 10846907,
+      "sha256": "3681f9cc52d8e0cf552d2bff8684ba1a5481e4b6d4d485b804c7c0c5f56b38a2"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-spherical-bearing-60s.mp4",
+      "bytes": 6956429,
+      "sha256": "2f9e0eb14a138012cdd88180ca9114dde2354c924c5c104fd36794e48ceb8c14"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-surge-arrester-60s.mp4",
+      "bytes": 7665789,
+      "sha256": "83e584c3858f2a283d57cef47c66bbc922f17baa866fa5b8482789f2e676ba02"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-suspension-60s.mp4",
+      "bytes": 10040450,
+      "sha256": "134156bc416267c9aade7e37449273e049525549842a401679cfc3470838ea81"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-traction-link-60s.mp4",
+      "bytes": 9134404,
+      "sha256": "50a263990e1639f3c1cfbbfeed4222324f637b591f6159638310a7b884c9c953"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-transformer-induction-60s.mp4",
+      "bytes": 8165298,
+      "sha256": "94de059e5ea58ff432be20a3696f225834da15a064cca471949fde9931b33a8f"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-twisted-pair-60s.mp4",
+      "bytes": 9523768,
+      "sha256": "4969c4a5685942e91f2ca3721869c7c7989a7cbc3d167d54b25f6fed1f02467c"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-wedge-lock-60s.mp4",
+      "bytes": 6530635,
+      "sha256": "c7d234892cd72ca0ac89f82de6573a147a303f1ffe1547863172fccf905817b4"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-wheel-pressfit-60s.mp4",
+      "bytes": 9178548,
+      "sha256": "3f9d2c1770d082a36c059c5cc9f64dd2f1e75d698997a2978ada173fa5e910f8"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-wheel-reprofile-60s.mp4",
+      "bytes": 7139109,
+      "sha256": "9d4d9bc9eefc3628c9c1265bddf081938cc82c5df18baf9ae1071fd793337494"
+    },
+    {
+      "path": "knowledge/videos/HXD3D-windscreen-wiper-60s.mp4",
+      "bytes": 8626645,
+      "sha256": "923e2641d661733b5ab09ac1ee464030b8296c80fd659fc0d92987bc67339313"
+    },
+    {
+      "path": "knowledge/watch.html",
+      "bytes": 1101,
+      "sha256": "1118cd2d6fdb9ab29cb4c8c7546f68542d9ae5190e38c4ea88bffbf006fb7019"
+    },
+    {
+      "path": "library/documents/research-paper.docx",
+      "bytes": 2128864,
+      "sha256": "32682bb9fc5348eb30cfc18ff17234e1eae4c9ab224ab9638fab72ea19428881"
+    },
+    {
+      "path": "library/documents/research-slides.pptx",
+      "bytes": 4691342,
+      "sha256": "244d948ca4a99732be0c265696e41b098b0014398b974eea323cf2a2d61bd7e1"
+    },
+    {
+      "path": "library/images/cfd.png",
+      "bytes": 180769,
+      "sha256": "81d68246ad14ede550fab819c225b6d4dee537a4d9d7482e2de52a4dbfc7e82b"
+    },
+    {
+      "path": "library/images/cr.png",
+      "bytes": 89895,
+      "sha256": "a1b3f76fa387a9931a41ac8e3ef33b7c6aac709e01785fdf4715ea6402348317"
+    },
+    {
+      "path": "library/images/haul.png",
+      "bytes": 480058,
+      "sha256": "1fb2960fe4d281c135670adcfa559faf8afa46deeed59a35b53df16520b1f480"
+    },
+    {
+      "path": "library/images/haul.webp",
+      "bytes": 186140,
+      "sha256": "12ce0638d8ebb6557a1bab06057f9014e57ec1d4f115b51be7866b3a2c6ab485"
+    },
+    {
+      "path": "library/images/hxd-v2.png",
+      "bytes": 86402,
+      "sha256": "d94aa8c1ff6b6320984f452f80c20a8409b2b72011444fc9fcb8895651edac16"
+    },
+    {
+      "path": "library/images/hxd-v3.png",
+      "bytes": 145815,
+      "sha256": "e4d352236720a20e606ae41422d91770037f21a92ae19a066c1e77d7c4088ce3"
+    },
+    {
+      "path": "library/images/hxd-v4.png",
+      "bytes": 12545,
+      "sha256": "dda244d2f39aa3ea74beede57d00ef81a7bd70ad32c99ce947c19d27f0433d7c"
+    },
+    {
+      "path": "library/images/hxd.png",
+      "bytes": 65555,
+      "sha256": "c956ad0b89b18ed09a7505d4a5b0b0837fa04e99c65fd72739b74c7746790482"
+    },
+    {
+      "path": "library/images/research.png",
+      "bytes": 349784,
+      "sha256": "14c1cf4042f980e051f195d54ca0edd8b692a68093e176a7acdddffbe81fbb43"
+    },
+    {
+      "path": "library/images/research.webp",
+      "bytes": 137568,
+      "sha256": "4fc218e05cbb62d1fed5b267cf1ae858c249a8f224dea771726d7b5041221672"
+    },
+    {
+      "path": "library/index.html",
+      "bytes": 13930,
+      "sha256": "2dd9b529c7fa04c9e8f8ffd2008a34c80e6459eb5de191dfb9020bb12ea4ba82"
+    },
+    {
+      "path": "library/style.css",
+      "bytes": 3514,
+      "sha256": "bd1ad446f3a6eb074d25fd861ce333172ebd2d598e0f7c94efd715d71fe1704f"
+    },
+    {
+      "path": "library/videos.json",
+      "bytes": 4724,
+      "sha256": "7a4d0cf411195301dfdcf6a08f3630bcd23e5fba3985551f2c2b657e126bbb08"
+    },
+    {
+      "path": "library/videos/cr-pure.mp4",
+      "bytes": 21049658,
+      "sha256": "7151b0f405673c4ec2282a637d6513a585a06371e32b394081780cb14d57a839"
+    },
+    {
+      "path": "library/videos/cr-wind.mp4",
+      "bytes": 23147810,
+      "sha256": "92ff4b69518421a4b1c02d950e98ca359744b6887d4251288600e681e1161cfd"
+    },
+    {
+      "path": "library/videos/hxd-pure.mp4",
+      "bytes": 19568292,
+      "sha256": "b8f4ba632616d99d95a487349f7e321bc87e70679594444ec6186c54a0bc36f6"
+    },
+    {
+      "path": "library/videos/hxd-wind.mp4",
+      "bytes": 21947712,
+      "sha256": "1cac0afe6ae5cf76b5baaf2a60baa82a6fc1cea9eaafbe15d59ad97fb46de37d"
+    },
+    {
+      "path": "library/videos/research.mp4",
+      "bytes": 5218887,
+      "sha256": "d3c745557b3a171fc14ef540c707529462ca1e88227d1b87da19e06f842f3abd"
+    },
+    {
+      "path": "library/watch.html",
+      "bytes": 1538,
+      "sha256": "2359305f3935d04af8a36da81a5a195029a4f77655681d0e0da692393d0075b6"
+    },
+    {
+      "path": "library/watch.js",
+      "bytes": 981,
+      "sha256": "20cf317df02bd84f3c17bdecc1c13c79f3c80c7c376847f3cab9c274fbe96b24"
+    },
+    {
+      "path": "mobile-optimization-report.json",
+      "bytes": 690,
+      "sha256": "e8fb93ed1f2f76d7cf9c7c386d4d99370230b7bec4633c689693e6912ed3a594"
+    },
+    {
+      "path": "nd5/assets/nd5.glb",
+      "bytes": 4838552,
+      "sha256": "2b2079b1af16a9ca11b01a74e18e309c92d7d4ffb359f9b11bfec321f8302572"
+    },
+    {
+      "path": "nd5/assets/parts.json",
+      "bytes": 15867,
+      "sha256": "622cfcd25f3e87fc856c0a9f9d41c97f3f59371a7540ef31e519ffdfdc4ad48e"
+    },
+    {
+      "path": "nd5/film_state.js",
+      "bytes": 2307,
+      "sha256": "fa1a8dcf9e6746082e48d3d9e74d125fcf3983577141cdf74e2db32669ccfc9a"
+    },
+    {
+      "path": "nd5/film-wind.js",
+      "bytes": 2878,
+      "sha256": "b3d747774ba0b3f320f2c0249f48f86a8dbfc3b7274f0a7dd887edaebfa5363a"
+    },
+    {
+      "path": "nd5/film.html",
+      "bytes": 8856,
+      "sha256": "c2f6cc92f4f9df705e9fe3880c37e83c7c7209b2384f55c34d3f06a91878e433"
+    },
+    {
+      "path": "nd5/index.html",
+      "bytes": 5401,
+      "sha256": "8e9948e49239fd0816a81d93ec0e19a6b6fb4a6c70a92f0bc19d5f2f1b96afb8"
+    },
+    {
+      "path": "nd5/nd5.css",
+      "bytes": 6655,
+      "sha256": "fd3d7bae2b1083900bd91b21176763c06506217f4cf080976181288c7dc9474f"
+    },
+    {
+      "path": "nd5/studio.css",
+      "bytes": 18240,
+      "sha256": "1e74e371568b820855ce42b8c2681b738c05f080eb4a1d3518a7e9497f1cfef0"
+    },
+    {
+      "path": "nd5/studio.js",
+      "bytes": 108611,
+      "sha256": "f7f186bca5d8e9ec4021d11c3cafee5bf8fb67f7609bd01056fedbe6efd75c2f"
+    },
+    {
+      "path": "rail/model-files.js",
+      "bytes": 546,
+      "sha256": "283fa0a7a3e1766ba17e59b57906aad0d483bdc0c724639be636c1d0c3acad6b"
+    },
+    {
+      "path": "rail/model-loader.js",
+      "bytes": 6536,
+      "sha256": "1ccb7794e6c19b0b697b3e1a4033d57716cad5a140cbb18109ee631ffb4500eb"
+    },
+    {
+      "path": "ss9/assets/parts.json",
+      "bytes": 21370,
+      "sha256": "47f206528e3764e1c33af608c2822742e295698bc20867b63270482337201bd8"
+    },
+    {
+      "path": "ss9/assets/ss9.glb",
+      "bytes": 2732148,
+      "sha256": "e2ec5a9e1df0c301e363f4e5a820f51c6097dc9707e72421aeb60d1443ff649b"
+    },
+    {
+      "path": "ss9/film_state.js",
+      "bytes": 2275,
+      "sha256": "0ad07487d3a05529136997f039b9fdbe9ce5c80d81d38048bb54f9a6d425b3be"
+    },
+    {
+      "path": "ss9/film-wind.js",
+      "bytes": 2878,
+      "sha256": "08b476d846cb86685d1229f5350ea079a44230037913203ddf3998f94dd9c647"
+    },
+    {
+      "path": "ss9/film.html",
+      "bytes": 8792,
+      "sha256": "65e7b5a35ec35aea2acec300dc9fad755c02fbce0781cc002c2c1308fe675eac"
+    },
+    {
+      "path": "ss9/index.html",
+      "bytes": 5369,
+      "sha256": "491f6f53ea613c06534be9b4db0cbce910e7a0907933561678bfa7fcf8e4eb40"
+    },
+    {
+      "path": "ss9/ss9.css",
+      "bytes": 6655,
+      "sha256": "a1fe9611b9ae73fe43cdd846bef2a9062e1071f67894ae8967743f7f16264ffe"
+    },
+    {
+      "path": "ss9/studio.css",
+      "bytes": 18240,
+      "sha256": "1e74e371568b820855ce42b8c2681b738c05f080eb4a1d3518a7e9497f1cfef0"
+    },
+    {
+      "path": "ss9/studio.js",
+      "bytes": 108611,
+      "sha256": "9701d9ac5b6129e7fcc45a099d144e03dcc34914d7ceb185a3b13e8a70a9b802"
+    },
+    {
+      "path": "studio.css",
+      "bytes": 21367,
+      "sha256": "2ec31c446dd96f881b45ac23488387054738ce2774ed95bc1aebeb2134a9f72c"
+    },
+    {
+      "path": "studio.js",
+      "bytes": 55985,
+      "sha256": "3778a7e7ed345d8103b5f6a4f45ca103758b909fd05bb7ebdd903c7166e89738"
+    },
+    {
+      "path": "vendor/addons/controls/OrbitControls.js",
+      "bytes": 33657,
+      "sha256": "00021f896fee7accad035ada2b72abd9e12f21de349896576e8fd75d9542989e"
+    },
+    {
+      "path": "vendor/addons/environments/RoomEnvironment.js",
+      "bytes": 3750,
+      "sha256": "c7f7c674896230327e9f2ac0ee931a1d88a746f13a7c963277cadfcac1570dd7"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_decoder.js",
+      "bytes": 512498,
+      "sha256": "a47cd7c84911c5175bb0511c01ba41ddafb71873fd391f055def514398f5e7c4"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "vendor/addons/libs/draco/gltf/draco_wasm_wrapper.js",
+      "bytes": 58572,
+      "sha256": "f3ab54e2feabfe8bd37928b5f400bc10230dcc278c7e70bca5e025f63519d960"
+    },
+    {
+      "path": "vendor/addons/loaders/DRACOLoader.js",
+      "bytes": 14314,
+      "sha256": "eb4efeada4831874bf83b1894d99cd46a1540f64945a4d394a1a1dfe398bac8c"
+    },
+    {
+      "path": "vendor/addons/loaders/GLTFLoader.js",
+      "bytes": 114754,
+      "sha256": "f6a88fb108dfd359c32442c6d8e6bbe83838fe9fd3b49dbd74d84e80f50c61a7"
+    },
+    {
+      "path": "vendor/addons/utils/BufferGeometryUtils.js",
+      "bytes": 33141,
+      "sha256": "5beb9dc7e9248a32f7b5e8cc0dd5fd4054d227d8e19a3a98b4715f6d2784c4ef"
+    },
+    {
+      "path": "vendor/LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 1358975,
+      "sha256": "589f8422cd2aa47b9133e47744a2112e34952090dfa9384b707481e34b840694"
+    },
+    {
+      "path": "wind-tunnel/app.js",
+      "bytes": 32042,
+      "sha256": "caf03da7792a343230187bb45633f8425c06845ec69a3988c97d9aaf557c76e2"
+    },
+    {
+      "path": "wind-tunnel/DATA-CONTRACT.txt",
+      "bytes": 3777,
+      "sha256": "e752a7a111640821ac1e8c8a3736c81c1f4035b886a2e57bbde1e07c85038dd5"
+    },
+    {
+      "path": "wind-tunnel/data.js",
+      "bytes": 26483,
+      "sha256": "42137d9f63a38da8bc9c6579f09a17bc23cd45548f5e1be7f5d0fd2538bdf879"
+    },
+    {
+      "path": "wind-tunnel/data/synthetic-V100_W05.json",
+      "bytes": 5503,
+      "sha256": "4c69dae909f00622af6da803c44a41ac83f9f105274a914152c7725d103119b2"
+    },
+    {
+      "path": "wind-tunnel/index.html",
+      "bytes": 13218,
+      "sha256": "89ba0904ce30388aeaa78c000b206f1156f50b4251ecd4c554ffa58026501b02"
+    },
+    {
+      "path": "wind-tunnel/runtime-report.js",
+      "bytes": 3277,
+      "sha256": "500377d54061514b14339b5f0a49bb8d9443487e327a077e3be9be202ddad0e2"
+    },
+    {
+      "path": "wind-tunnel/scene.js",
+      "bytes": 30498,
+      "sha256": "a0d993e5ee0a594f9612d5d43fe371f20ba6c08df199699010a72a4c2d5cac13"
+    },
+    {
+      "path": "wind-tunnel/schema.json",
+      "bytes": 7048,
+      "sha256": "da8890be3ddaa64530c0613600d43e368b695d0365ca44725ad124c341be7f49"
+    },
+    {
+      "path": "wind-tunnel/state.js",
+      "bytes": 5225,
+      "sha256": "69ffae14a91de980c6aec6a968936d5a81ac593fa8e0bb9a0819c5866a8cd4d5"
+    },
+    {
+      "path": "wind-tunnel/style.css",
+      "bytes": 12835,
+      "sha256": "e5a4f7af356fdbe3be2bdab0a0154d46fb6809ea690f82ba716f97cc0c4ef0d9"
+    }
+  ]
+}
