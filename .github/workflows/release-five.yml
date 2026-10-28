@@ -1,4 +1,4 @@
-name: Publish verified five-locomotive release
+name: Publish verified railway library
 on:
   workflow_dispatch:
     inputs:
